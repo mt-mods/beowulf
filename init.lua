@@ -1,4 +1,4 @@
-local MP = minetest.get_modpath("pandorabox_custom")
+local MP = minetest.get_modpath("beowulf")
 
 dofile(MP.."/logging.lua")
 dofile(MP.."/df_detect.lua")
