@@ -7,6 +7,8 @@ Image source: https://en.wikipedia.org/wiki/Beowulf_(hero)
 
 ![](https://github.com/mt-mods/beowulf/workflows/luacheck/badge.svg)
 
+* State: **WIP**
+
 # Features
 
 * Kicks dragonfire clients if it detects a known version string
