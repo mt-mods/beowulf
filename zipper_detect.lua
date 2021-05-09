@@ -62,7 +62,7 @@ local function track_player(player)
 end
 
 local function interval_fn()
-    for _, player in minetest.get_connected_players() do
+    for _, player in ipairs(minetest.get_connected_players()) do
         track_player(player)
     end
     minetest.after(1, interval_fn)
