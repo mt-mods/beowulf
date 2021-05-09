@@ -58,7 +58,7 @@ local function track_player(player)
     end
 
     -- store current position
-    data.previous_poisition = pos
+    data.previous_position = pos
 end
 
 local function interval_fn()
