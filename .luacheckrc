@@ -10,5 +10,8 @@ read_globals = {
 	-- Minetest
 	"vector", "ItemStack",
 	"dump", "screwdriver",
-	"minetest"
+	"minetest",
+
+	-- mods
+	"beerchat"
 }
