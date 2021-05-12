@@ -68,4 +68,4 @@ local function interval_fn()
     minetest.after(1, interval_fn)
 end
 
-interval_fn()
+minetest.register_on_mods_loaded(function() minetest.after(1, interval_fn) end)
