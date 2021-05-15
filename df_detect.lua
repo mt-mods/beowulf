@@ -3,6 +3,19 @@ local has_beerchat = minetest.get_modpath("beerchat")
 
 
 local df = {
+	"35445d24f",
+	"5131675a6",
+	"f3e741dad",
+	"96a37aed3",
+	"d08242316",
+	"ce0d81a82",
+	"b7abc8df2",
+	"4f613bbf5",
+	"c86dcd0f6",
+	"b84ed7d0b",
+	"26cfbda65",
+	"6dc7a65d9",
+	"7d7d4d675",
 	"c47eae316",
 	"880c9768a",
 	"83d09ffaf",
