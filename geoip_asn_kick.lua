@@ -16,10 +16,12 @@ geoip.joinplayer_callback = function(name, result)
 			if has_beerchat then
 					beerchat.send_on_channel("Geoip-ASN-Kick", beerchat.moderator_channel_name, msg)
 			end
-			minetest.after(0, function()
-				minetest.kick_player(name, "you are joining from a blacklisted network that is known for troublemakers, " ..
-					"if you think this is a mistake please report this on irc/discord")
-			end)
+			if minetest.settings:get_bool("beowulf.geoip_asn_kick.enable", false) then
+				minetest.after(0, function()
+					minetest.kick_player(name, "you are joining from a blacklisted network that is known for troublemakers, " ..
+						"if you think this is a mistake please report this on irc/discord")
+				end)
+			end
 		end
 	end
 end
