@@ -3,6 +3,7 @@
 local has_beerchat = minetest.get_modpath("beerchat")
 
 local blacklisted_asn = {
+	-- "map-attack" hacks over various ip's
 	[49453] = true
 }
 
