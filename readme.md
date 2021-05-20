@@ -23,6 +23,7 @@ Image source: https://en.wikipedia.org/wiki/Beowulf_(hero)
 
 * **beowulf.dfdetect.enable_kick** if `true`: kicks the player if it detects a dragonfire version string, defaults to `false`
 * **beowulf.noclip_hurt.enable** enables damage in common ground nodes to make the `noclip` experience as worse as possible (default: `false`)
+* **beowulf.geoip_asn_kick.enable** enables kicking of blacklisted ASN's resolved by the `geoip` mod (default `false`)
 
 # License
 

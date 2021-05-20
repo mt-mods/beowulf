@@ -1,5 +1,5 @@
 globals = {
-
+	"geoip"
 }
 
 read_globals = {
