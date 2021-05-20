@@ -188,27 +188,26 @@ local df = {
 local function dfver(s) for _,v in ipairs(df) do if s:find(v) then return v end end end
 
 minetest.register_on_joinplayer(function(player)
-    local name = player:get_player_name()
-    local info = minetest.get_player_information(name)
-    local version = info.version_string
+	local name = player:get_player_name()
+	local info = minetest.get_player_information(name)
+	local version = info.version_string
 
-    if not version then
-        -- version not available
-        return
-    end
+	if not version then
+		-- version not available
+		return
+	end
 
-    local dfv = version:find("dragonfire") or dfver(version)
-    if dfv then
-        if has_beerchat then
-            beerchat.send_on_channel(
-                "DF-Detect",
-                beerchat.moderator_channel_name,
-                "Unsupported client detected: " .. dfv .. " player: " .. name
-            )
-        end
-        if minetest.settings:get_bool("beowulf.dfdetect.enable_kick", false) then
-            minetest.kick_player(name, "Unsupported client")
-        end
-    end
+	local dfv = version:find("dragonfire") or dfver(version)
+	if dfv then
+		local msg = "Unsupported client detected: " .. dfv .. " player: " .. name
+		minetest.log("action", "[beowulf] " .. msg)
+		if has_beerchat then
+			beerchat.send_on_channel("DF-Detect", beerchat.moderator_channel_name, msg)
+		end
+
+		if minetest.settings:get_bool("beowulf.dfdetect.enable_kick", false) then
+			minetest.kick_player(name, "Unsupported client")
+		end
+	end
 
 end)
