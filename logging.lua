@@ -4,7 +4,7 @@ minetest.register_on_joinplayer(function(player)
     local msg = "[beowulf] player '" .. name .. "' joined" ..
         " from " .. info.address .. " protocol_version: " .. info.protocol_version ..
         " formspec_version: " .. info.formspec_version ..
-        " lang_code: " .. info.lang_code
+        " lang_code: " .. (info.lang_code or "<unknown")
 
     if info.version_string then
         -- "version_string" is only available if the engine was compiled in debug mode (or patched accordingly)
