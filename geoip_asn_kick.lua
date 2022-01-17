@@ -7,11 +7,12 @@ local blacklisted_asn = {
 	[49453] = true
 }
 
-geoip.joinplayer_callback = function(name, result)
-	if result.data and result.data.geo and result.data.geo.asn then
-		if blacklisted_asn[result.data.geo.asn] then
+assert(type(geoip.register_on_joinplayer) == "function", "geoip-mod is out of date ('register_on_joinplayer' mmissing)")
+geoip.register_on_joinplayer(function(name, result)
+	if result.asn then
+		if blacklisted_asn[result.asn] then
 			-- blacklisted, kick player
-			local msg = "Player '" .. name .. "' joined from a blacklisted ASN: '" .. result.data.geo.asn .. "'"
+			local msg = "Player '" .. name .. "' joined from a blacklisted ASN: '" .. result.asn .. "'"
 			minetest.log("action", "[beowulf] " .. msg)
 			if has_beerchat then
 					beerchat.send_on_channel("Geoip-ASN-Kick", beerchat.moderator_channel_name, msg)
@@ -24,4 +25,4 @@ geoip.joinplayer_callback = function(name, result)
 			end
 		end
 	end
-end
+end)
