@@ -10,7 +10,7 @@ local function remove_entry(ip)
 end
 
 minetest.register_on_mods_loaded(function()
-	table.insert(core.registered_on_prejoinplayers, 1, function(player, ip)
+	table.insert(core.registered_on_prejoinplayers, 1, function(_, ip)
 		if ratelimit[ip] then
 			return "You are joining too fast, please try again"
 		else
