@@ -51,23 +51,23 @@ local function read_storage()
 end
 
 local function write_storage()
-	storage:set_string("create_account_ban.blacklist_ip", blacklist_ip and  minetest.serialize(blacklist_ip) or "")
+	storage:set_string("create_account_ban.blacklist_ip", blacklist_ip and minetest.serialize(blacklist_ip) or "")
 	storage:set_string("create_account_ban.blacklist_asn", blacklist_asn and minetest.serialize(blacklist_asn) or "")
 	storage:set_string("create_account_ban.active", active and "1" or "")
 	storage:set_int("create_account_ban.logging", logging)
 end
 
-local function validate(name, ip, key, options)
-	if options.pattern then
-		return ip:find(key) == nil
+local function match_values(a, b, options)
+	if type(options) == "table" and options.pattern then
+		return a:find(b) ~= nil
 	end
-	return ip ~= key
+	return a == b
 end
 
 minetest.register_on_prejoinplayer(function(name, ip)
 	if active and blacklist_ip and not minetest.get_auth_handler().get_auth(name) then
-		for key, options in pairs(blacklist_ip) do
-			if not validate(name, ip, key, options) then
+		for ip_pattern, options in pairs(blacklist_ip) do
+			if match_values(ip, ip_pattern, options) then
 				-- Account creation blocked by blacklisted IP address
 				if has_beerchat then
 					local msg = "Blocked new account " .. name .. " from " .. ip
