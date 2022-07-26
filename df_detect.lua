@@ -3,10 +3,12 @@ local has_beerchat = minetest.get_modpath("beerchat")
 
 -- luacheck: push no max line length
 local df = {
-	"761e9c2ef", -- Merge pull request #49 from Bigjango13/master
-	"f175bb78b", -- Fixed directory name
-	"75d90311d", -- Fixed filename
-	"5cb7974f2", -- Fix #47 and #46
+	"296cce39d", -- Fix upstream merge issues
+	"350b6d175", -- Install lua_async dependency
+	"393c83928", -- Don't include client/game.h on server build
+	"ccd4c504d", -- Ship dragonfireclient with selected high-quality mods
+	"147aaf326", -- Fix build instructions
+	"b09fc5de5", -- Add spider
 	"d404517d2", -- Make LuaVoxelManipulator available to CSM API
 	"1ccf88e80", -- minetest.dig_node: Remove node
 	"950d2c9b3", -- Add ClientObjectRef:remove and return true in on_object_add callback to remove newly added object
