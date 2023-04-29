@@ -230,7 +230,6 @@ minetest.register_on_joinplayer(function(player)
 		local msg = "Unsupported client detected: " .. dfv .. " player: " .. name
 		minetest.log("action", "[beowulf] " .. msg)
 		if has_beerchat then
-			beerchat.on_channel_message(beerchat.moderator_channel_name, "DF-Detect", msg)
 			beerchat.send_on_channel("DF-Detect", beerchat.moderator_channel_name, msg)
 		end
 
