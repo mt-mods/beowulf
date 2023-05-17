@@ -4,6 +4,8 @@ local has_beerchat = minetest.get_modpath("beerchat")
 -- luacheck: push no max line length
 local df = {
 	"dragonfire",
+	"f8fd5c11b", -- Merge pull request #59 from PrairieAstronomer/readme_irrlicht_change
+	"c66ae6717", -- Add exact irrlichtmt version to the clone command
 	"296cce39d", -- Fix upstream merge issues
 	"350b6d175", -- Install lua_async dependency
 	"393c83928", -- Don't include client/game.h on server build
