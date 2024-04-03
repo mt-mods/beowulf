@@ -4,6 +4,10 @@ local has_beerchat = minetest.get_modpath("beerchat")
 -- luacheck: push no max line length
 local df = {
 	"dragonfire",
+	"6df159080", -- Add list setting -> chatcmd def for external access (#62)
+	"2c050a42d", -- Merge pull request #61 from dragonfireclient/serverinfo_seed
+	"64e7dda46", -- Add server info seed field to documentation
+	"7a59bcda7", -- Add mapseed to get_server_info table
 	"f8fd5c11b", -- Merge pull request #59 from PrairieAstronomer/readme_irrlicht_change
 	"c66ae6717", -- Add exact irrlichtmt version to the clone command
 	"296cce39d", -- Fix upstream merge issues
