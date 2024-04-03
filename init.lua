@@ -12,3 +12,5 @@ end
 if minetest.get_modpath("geoip") then
 	dofile(MP.."/geoip_asn_kick.lua")
 end
+
+dofile(MP.."/create_account_ban.lua")
