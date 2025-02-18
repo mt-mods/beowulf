@@ -1,0 +1,134 @@
+240eede Added target highlighting, and added TargetHUD but its not complete yet
+bf95c03 readd fov settings
+dd0703d appleaura
+f16b335 Settings for changing menu background
+027a5e4 Rename settings
+3d94f85 Added slider for changing fov
+2cb60cb add `place_node_at_index(pos, wield_index), and a toggle scaffold button
+c11d652 Update to 5.9.1
+f1f7075 Merge branch 'TeamAcedia:main' into main
+a2833ca fixed no fall damage
+84127a1 Make vertical movement speed while scaffolding an option
+ec9b0d7 Fix scaffold forcing step on
+ad871ca Make Scaffold and Auto Refill work MUCH better
+8bc74a5 Merge branch 'TeamAcedia:main' into main
+14d9000 Set version to 5.9.1 and fix something in a very rudimentary way
+493df02 Add Auto Heal, delete unused files, fix auto  staff
+9e9c1ef Merge pull request #3 from SaiPanneerselvam/patch-1
+5df0859 Rewrite Anti-Admin, etc ( more in description )
+e5b00e7 Update README.md
+bae3720 Added sprite for moving coords text
+dae2e8b Reduce include count in headers
+be361dc Debloat IVideoDriver and IrrlichtDevice includes (#15080)
+34dd7bd Update to 5.9.1
+12172c1 Add version string
+460dccc Fix check admin
+7c62a24 Update README.md
+e51160c Added checkadmin
+41fadf7 Added more cheat descriptions, reworked QuickMenu a little bit
+5141121 Fix cheat menu and make some changes, also copy client theming to misc
+e01cb07 Fix bug with PlayerESP
+70f7896 Fix Killaura key
+d2935c2 Dont draw health ESP if object is an entity.
+61cf3ab Removed restrictions from repeat_place_time and repeat_dig_time
+0ecd92e Removed workflows
+dad1c02 add Y offset to autoaim
+c2b8f2a Deleted minetest.dmp
+e58bb8b Resolved nil reference issue
+d1ff3ff Add color settings to EntityESP
+f90eae5 Update combat.lua
+d3af54f Rework Autoaim and Killaura, and add Orbit
+7f96566 set players as enemies by default
+172430b Add support for JMA ctf in util/core.get_server_game()
+a3e12c3 Add HP setting to CombatLog
+8e29314 Added hints for cheats
+462052c Changed app name
+01d09dd Add core.get_server_game() and implement it in auto team
+56af78d Add a setting for cheat hud position
+57f4b63 Add cheat hud offset
+0aa78b6 Merge branch 'main' of https://github.com/TeamAcedia/CloakV4
+1706262 Add physics overrides
+cc7718d Remove useless multiplications
+75aa3f9 Added extra spacebar cuz it looks weird
+028b037 Added Step cheat and more infotexts
+bff8ea9 Add Auto Team and rework friends/enemies/friends system entirely
+be35a22 Fix bug
+7e0c2ee Remove accidental logging from camera.cpp
+4adcc5a Add health ESP vertical bars render mode
+6140170 Settings for Autoaim, added CombatLog cheat
+93acedc Add Criticals cheat
+705354b Merge branch 'menu-prounce'
+cfd353f Finish cheat menu and fix bugs
+aac22ac Update android.yml
+d885d58 Fix typo with autoaim
+352cefa Fixing building
+90e4049 Fixed s_cheats
+2394cae Update ClickGUI code
+7f907a7 Merge branch 'menu-prounce'
+5b7173c Trying fix problems with permission
+bb49e3b Remove whitespace
+e0cf57c workflows
+93ef2c4 Merging menu-prounce -> main
+f136761 Add slider and text field options
+262b90b Added panic function
+cccc227 Remove autoteam
+f0b3545 AntiAFK
+fdb170b Added function to show players  HP
+6d1631f Reapply ""Improve autototem functionality and simplify logic:"
+7ba73b8 Revert ""Improve autototem functionality and simplify logic:"
+772cb40 "Improve autototem functionality and simplify logic: - Fixed autototem - Made logic fixes - Reduced the number of if-else statements in combat.lua and auto-aim.lua for better readability"
+937646b Add settings dropdowns and boolean settings, also add a setting for grid in menu
+4cf397e Removed checks for CSM restriction flags and eliminated comparison with an unsigned long to resolve type warning.
+2c6b804 Add menu grid and stop categories from exiting screen
+45701a4 Implement new menu
+749ccdd Return plus-22s changes
+0d78e31 Revert "Merge branch 'main' of https://github.com/TeamAcedia/CloakV4"
+f2d7596 Merge branch 'main' of https://github.com/TeamAcedia/CloakV4
+63e0a41 Lua API: setPlayerColorESP
+5a3b7a5 no bhop while flying
+5bd5926 Make autoaim ignore entities
+9073174 Remove unnecessary code from autototem
+c4e61b7 Rework autoaim
+c7f8c39 Fix typo
+19bc8c8 fix crash on exit
+158b025 Fix some code
+dd7873b change some stuff with bhop
+332749f Add cheat settings, documentation in builtin/client/cheats.lua
+863127a Added bunnyhop
+4bd260c Bring back menu, add cloak v4 theming in loading screen, maybe fix crash
+fc885c9 Added new cheat
+3cbf4a6 Add some style to edit lines
+208de1c Added the ability to change the color of text marks
+b56ca4d Revert "Rewrite menu to look much better"
+b43d4d7 Revert "Remove extra file"
+b76d301 Revert "Maybe fix bug"
+4ac8c19 Revert "fix warnings"
+9f0ab01 Revert "minor bugfixes"
+1ee2244 minor bugfixes
+a97be34 fix warnings
+47d4a42 Fix segfault with auto totem
+4c81205 Edit lines
+5904a33 Maybe fix bug
+64051a2 Remove extra file
+11d9b78 Rewrite menu to look much better
+f6189cd rename nocambobbing to noviewbob
+b51aa7d added nobob setting
+a1542f3 added NoCamBobbing
+df80142 Small fix
+f68c91b Add infotext to autototem
+5a147f9 Replace crystalspam keybind with autoaim
+9ef43d8 readd base texture pack + new header
+3beea1e Delete textures/base/pack directory
+1038a5a Fix #2 emails
+d09f2eb Revert of 7654d1b Fix emails
+7654d1b Fix emails
+15d26c3 Added a test version of the input to the menu
+2923ef3 Fix rendering enbaled buttons
+39b4cf2 add info texts
+360225c Merge branch 'main' of https://github.com/TeamAcedia/CloakV4
+ef51206 redo logos
+6fd5c3c Fix, more cheats in settings menu, added client devs
+3f8151d Added draw2DRectangleOutline function to irrlicht, fixed NewMenu
+439e7ab Update README.md
+d005e23 Initial Commit
+c006e4a Initial commit

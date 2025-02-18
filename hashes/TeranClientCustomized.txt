@@ -1,0 +1,337 @@
+9ab9c911a Добавлена информация о клиенте
+9abd2cf4b Обновлено название чит-клиента в меню(TCC = TeranClientCustomized)
+4857bf061 Добавлен конфиг suac
+8dd37e1d3 Добавлено описание пре-сета suac
+d1776f85f Добавлен пре-сет ALL ORES(для Xray) в ultrabit
+0decdd43e Добавлено описание пре-сета UltraBit
+484b6f110 Добавлен пре-сет конфига "ultrabit"
+9376f1a53 Update mods_download.sh
+21ce10d74 Добавлено скачивание Tewasp_pack(пака csm)
+9ee5cf611 Добавлен CSM df_crypt_chat(шифрование чата)
+7e64fc6e2 Добавлена поддержка csm от waspsaliva
+2190d49b3 Добавлен мод lua_aasync
+f6f43e48e добавлен дискорд для вопросов
+1f8b6b7ad Пофкишена установка autokey
+b279ed33f Обновлена ссылка для скачивания
+51f4eefc4 Добавлена поддержка adv-cheat-gui
+e288d59fe Fix panic clientmod and added soem
+488b89cd3 Warning to readme added
+640c214d4 Fix config
+33b13f143 Merge pull request #4 from chmodsayshello/death_tracer
+a31d2b42c remove death tracer upon disconnect
+67ebfcf2a make use of new color in core.cpp
+d29294424 define new color in core.h
+40e7257c3 Update mods_download.sh
+a591e2f79 Merge pull request #3 from chmodsayshello/death_tracer
+e5acf0b53 Merge branch 'Teeranu:master' into death_tracer
+e8d919571 fix game.cpp including wrong header
+1509b6169 Update README.md
+74da10519 Merge pull request #2 from chmodsayshello/death_tracer
+366a72b82 Update defaultsettings.cpp
+f63cb020d Update core.h
+88ba8186f Update core.cpp
+e1137a75b Update game.cpp
+43fba1bf9 Update settingtypes.txt
+d511932cd Update cheats.lua
+ff963e390 Update mods_download.sh
+33ac86cae Update README.md
+3704639de Update README.md
+66b61006c some updates in readme
+0560d1c4b autokey cheat added
+305551dea some download fixes
+98f6e4dbd Panic clientmod is enabled
+674d1a158 Add panic mod to cheat downloader
+97960c7ba Update mods.conf
+a2f4b1421 Add some cheats
+d6d742d89 Add crypt chat cheat
+7f36c14e4 Add protective shell cheat download
+c7767e186 Add netherite finder
+7eeb0d51d Delete clientmods/worldutil directory
+5c58c43fc Delete clientmods/warp directory
+3de36498f Delete clientmods/simpletp directory
+d2b5fd5dc Delete clientmods/physics_override directory
+383506a67 Delete clientmods/perlin directory
+626ab24aa Delete clientmods/pathfinding directory
+7dcb2e743 Delete clientmods/noweather directory
+34f070486 Delete clientmods/nametags directory
+d14225dac Delete clientmods/lua_async directory
+bb340079a Delete clientmods/killaura directory
+197f1eddb Delete clientmods/karaoke directory
+6494df596 Delete clientmods/invutil directory
+1e51c26cd Update mods.conf
+4a6703f61 Delete clientmods/enderchest directory
+1ad40afc7 Delete clientmods/draining directory
+e69720b1b Delete clientmods/diglib directory
+9157674f6 Delete clientmods/digcustom directory
+3486c3d4d Delete clientmods/deathmessages directory
+95a92c18a Delete clientmods/crystalpvp directory
+e16d2d318 Delete clientmods/chateffects directory
+163280355 Delete clientmods/bowaimbot directory
+c9800b45e Delete clientmods/autotool directory
+fb5f2fca8 Delete clientmods/autokey directory
+480155bd4 Delete clientmods/autoeat directory
+d8910bb9c Delete clientmods/autodupe directory
+8b0ac60a6 Add downloading and auto start in client
+15e890666 Add cheat mods downloading
+ec288ae0f Merge pull request #1 from jub2884/patch-1
+fac1b2e5a Add some features
+05152db8d Add emerald block to expensive blocks finder
+d783edf71 Remove repo downloading
+45fa767e5 add script for downloading Teran Client
+9a3719847 fix link for download in README
+db3ecc67b Fix chest finder for old MCL 2 versions
+fbadbfb8f Fix expensive blocks finder
+af219f9d0 Add Clamity dig nodes
+9aa602c53 Add other cheat mods
+e762e3db0 Add some cheat mods
+310320a82 Update one of developer name
+ca5575553 Fix developer name
+56b6b14c1 Update PULL_REQUEST_TEMPLATE.md
+4d516a285 Fix cd cmd in README
+f1b2787a3 Fix X-ray
+f35f7dee2 Add entity speed enable in config
+c4b34d7d3 Add chest finder to config
+ba4297a12 Fix github link to download
+a2df311f5 Remove army. Add team
+56ca904db Remove name of server where team
+90d2a6f86 Merge pull request #3 from dragonfireclient/master
+296cce39d Fix upstream merge issues
+b11c0a672 Merge branch 'master' of https://github.com/minetest/minetest
+575ec5fad Merge pull request #2 from 2IM125/patch-1
+d20c8ae5a Some fixes in README.md
+fd743a96e Merge pull request #1 from dragonfireclient/master
+ecf4effc9 Fix Anti-particle cheat
+32efd4e84 Update README.md
+7ae5196e2 Add anti-particle cheat
+c453fa37f Update name in  cheatMenu.cpp
+827b9f8d7 Merge branch 'master' of https://github.com/minetest/minetest
+80fabb0ab Add anti-ban system
+a72126ea0 Fix some information in README
+fd774a998 Add some information about TeranClient
+7daed2748 Add custom config
+3ff3103e9 Merge branch 'master' of https://github.com/minetest/minetest
+350b6d175 Install lua_async dependency
+393c83928 Don't include client/game.h on server build
+8d19b99c5 Merge branch 'master' of https://github.com/minetest/minetest
+ccd4c504d Ship dragonfireclient with selected high-quality mods
+147aaf326 Fix build instructions
+21df26984 Merge branch 'master' of https://github.com/minetest/minetest
+b09fc5de5 Add spider
+d404517d2 Make LuaVoxelManipulator available to CSM API
+1ccf88e80 minetest.dig_node: Remove node
+c8900e169 Merge branch 'master' of https://github.com/minetest/minetest
+950d2c9b3 Add ClientObjectRef:remove and return true in on_object_add callback to remove newly added object
+fb4815c66 Merge pull request #35 from arydevy/patch-1
+f12288814 Merge pull request #42 from Minetest-j45/master
+f3082146c remove irrlicht from lid dir (accident)
+a3925db22 add airjump and remove unused headers
+7824a4956 Merge pull request #1 from EliasFleckenstein03/master
+35445d24f Make set_pitch and set_yaw more accurate by not rounding it to integers
+5131675a6 Add guards to stop server build fail
+f3e741dad Merge branch 'master' of https://github.com/minetest/minetest
+96a37aed3 Add minetest.get_send_speed
+d08242316 Fix format
+ce0d81a82 Change default cheat menu entry height
+b7abc8df2 Add on_object_add callback
+4f613bbf5 Include tile definitions in get_node_def; Client-side minetest.object_refs table
+c86dcd0f6 Add on_object_hp_change callback and nametag images
+b84ed7d0b Call on_object_properties_change callback when adding object to scene
+26cfbda65 Add on_object_properties_change callback
+6dc7a65d9 Add ClientObjectRef:set_properties
+7d7d4d675 Add ClientObjectRef.get_properties
+ea8fa30b6 Changed README.md to fit the dragonfire client
+c47eae316 Add table.combine to luacheckrc
+880c9768a Merge branch 'master' of https://github.com/minetest/minetest
+83d09ffaf Complete documentation
+138a002cf Merge branch 'master' of https://github.com/EliasFleckenstein03/dragonfireclient
+e0b4859e7 Add ClientObjectRef:remove
+63f7c96ec Fix legit_speed
+22f73e9f2 Merge branch 'master' of https://github.com/EliasFleckenstein03/dragonfireclient
+5c06763e8 Add noise to client CSM API
+4c6ab11d9 Merge branch 'master' of https://github.com/EliasFleckenstein03/dragonfireclient
+7613d9bfe Update .wielded command to output the entire itemstring; add LocalPlayer:get_hotbar_size
+1309066be Merge branch 'master' of https://github.com/EliasFleckenstein03/dragonfireclient
+bc79c2344 CSM: Use server-like (and safe) HTTP API instead of Mainmenu-like
+166968232 Port formspec API from waspsaliva This API is inofficial and undocumented; invalid usage causes the game to crash. Use at own risk!
+e391ee435 Forcefully place items when minetest.place_node is used
+546ab256b Update buildbot to new MineClone2 repo and set the game name to MineClone2 rather than mineclone2
+d3780cefd Attempt to fix SEGFAULT in push_inventory
+d1c84ada2 Merge minetest changes
+1fbbb7682 Merge branch 'master' of https://github.com/minetest/minetest
+74f5f033e Add Custom version string
+607add326 Update credits
+946f3030f Merge branch 'master' of https://github.com/minetest/minetest
+b2f629d8d Logo improvements
+f97763dc7 Merge branch 'master' of https://github.com/minetest/minetest
+78b7d1019 Add dragonfire logo
+19e0528e3 Add minetest.get_nearby_objects
+47d0882cc Fix line containing only whitespace
+cca4254f7 Merge branch 'master' of https://github.com/minetest/minetest
+4fedc3a31 Add minetest.interact
+dc67f669e Make the Cheat Menu size configureable
+906845a87 Add minetest.registered_items and minetest.registered_nodes (Doesn't do anything yet)
+3a4325902 Fixed crash by adding legacy stuff to defaultsettings (for now)
+53c991c5f Fixed crash due to missing entry in defaultsettings.cpp
+0c6e0c717 Reorganize categories
+e8faa2afb Rework Range
+a4d914ba2 Make GitHub Actions Happy try 3
+a34c61093 Make GitHub Actions Happy try 2
+7250cf2c1 Merge branch 'master' of https://github.com/minetest/minetest
+f783f5939 Make GitHub Actions Happy try 1
+8b58465aa Remove obsolete code from clientenvironment
+35c15567a Update builtin/settingtypes.txt to the new philosophy
+0c9e7466e New Cheat Philosophy
+a1e61e561 World Cheats improvements; Add BlockLava; Readd minetest.request_http_api for Compatibility
+56d536ea5 Update CheatDB URL again
+ce47003cc Update defaults for ContentDB (->CheatDB)
+89995efee CheatDB Support & Enable/Disable CSMs in Main Menu
+3df23e23c Small AutoTool Fix
+8b3eaf5b0 Lua API: Particle callbacks; Add NoWeather
+0a285dd33 Remove NextItem
+4695222bc Fix and Improve AutoTool
+5bead7daa Added minetest.close_formspec
+f825cf0e3 Fixed Minimap position
+eaa8a5132 Fixed FastPlace and AutoPlace
+9633ad122 Improved Freecam
+b4e475726 Added configureable Colors for PlayerESP and EntityESP
+549025f6a EntityESP, EntityTracers, PlayerESP, PlayerTracers
+eb6aca8b4 Merged Minetest
+8de51dae9 Fixed crash when attempting to access nonexistant inventory from Lua API
+a65251a7a Fixed glowing GenericCAOs being rendered completely back when Fullbright is enabled
+eaec3645b Added ClientObjectRef:get_hp()
+fb4d54ee3 Added minetest.register_on_play_sound
+50629cc6a Improved Scaffold
+3d74e17cc Added AutoSlip (-> Credit to Code-Sploit)
+f9c632466 Added JetPack and AutoHit (-> Credits to Code-Sploit and cora)
+843239c0b Added Speed/Jump/Gravity Override
+598e9bdbc Update Credits
+7d327def8 Improved AutoSneak
+82216e147 LocalPlayer:set_physics_override; minetest.register_on_recieve_physics_override
+4dd5ecfc5 Added setpitch & setyaw commands; AutoSprint
+128ac35a9 Merge branch 'master' of https://github.com/EliasFleckenstein03/dragonfireclient
+b65db98bd Added OnlyTracePlayers
+e16bbc1fb Merge pull request #14 from corarona/master
+1780adeea lua-api: fix get/set_pitch
+3e7c5d720 Possibility to use cheat menu while pressing other keys
+0aa63aafc Fixed warning
+9db80fc6f Run Lint Script
+91ad0d049 Merge pull request #10 from corarona/master
+6bda686c0 MapBlockMesh Performance Improvement
+1bab49049 add LUA_FCT
+6efa8a758 add g/s pitch and make_screenshot in lua api
+46237330d Several Enhancements
+60a9ff6ff api-screenshot: change function name to make_screenshot
+1f56317d5 Added NodeESP
+75ecaa217 Fix and run the Lint autocorrect script
+3e16c3a78 Merge branch 'master' into master
+6ccb5835f Revert "Make Lint Happy"
+244713971 Added script that automaticall corrects lint style
+07e61e115 Fix github build problems #3
+5d9ae5a91 Merge branch 'master' into master
+3af10766f Fix github build problems #2
+16d302c9a Fix github build problems
+ad148587d Make Lint Happy
+1145b05ea Updated Credits
+c9221730d Updated Cheat Menu Color Design
+1799d5aa9 Cheat Menu Improvements Change
+fba7dc216 Merge pull request #8 from realOneplustwo/master
+fc8c8f01c Merge branch 'master' into master
+61e2b3a33 Re-add empty lines
+3c5707415 Re-add empty lines
+a7dc1135e Added CheatHUD
+f1d9ac014 Moved Killaura to Lua; Added ForceField; Added Friendlist; Added ClientObjectRef:is_local_player(); Documented LocalPlayer:get_object()
+06b72069d Fixed ColorChat
+62958bd60 Reverted accidental commit in wrong repo
+00d51fbd5 Armor textures support
+7cbe42b1d Re-Added Chat Effects
+28f6a7970 lua api: add set/get_pitch
+4f9797b6e lua api: add core.take_screenshot()
+8e9e76a50 Revert "Add Block Formspec Hack"
+6652d7ac2 Add Block Formspec Hack
+8bc7d49b3 Added Nuke
+62cf9b466 Fix compile error
+3bdb843f2 Make cheat menu color and font configurable via settings
+19143bedf Make cheat menu color and font configurable via settings
+b29d6bc19 Make cheat menu color and font configurable via settings
+519f98c65 Merge pull request #3 from JosiahWI/ui_revamp
+f236476af Fix errors in cheatMenu.
+7af3dee31 Merge pull request #2 from JosiahWI/ui_revamp
+ea88dde4b Added Strip, AutoRefill, indexing for InventoryActions and Wield Index starts at 1 now
+7aff09ab2 Fix overindent!
+aea9b36ef Improved Colours
+1ef72ad9c Fix indentation style.
+586241008 Add missing return.
+b211e90ff Prepare cheatMenu::draw function for easier UI changes.
+e22e334e9 Merge pull request #1 from JosiahWI/ui_revamp
+f605308ee Improve drawEntry.
+130d476f6 Changed Cheat Menu UI
+f1ff05bf5 Added ThroughWalls, InventoryActions API and AutoTotem
+35da7306d Test GitHub Discord Integration
+58e6b29d4 Test GitHub Discord Integration
+1a7d3d818 Extended ClientObjectRef; Improved CrystalPvP
+1e4f35492 This is the last try for lint...
+7e0f8fba0 Another Lint commit
+151e5782e Lint is still not happy...
+7ed223686 Replaced spaces with tabs
+f8777a4fa Replaced spaces with tabs
+28a560684 Added the API additions from waspsaliva
+c1aea404b Lint is bitch
+3a718f12b Make lint happy; Remove stupid redirector
+3b596a96e Fixed Github build problems
+847198edb Edited .gitignore properly; fixed armor invulnarability in the server code.
+bbcd24954 New Mod System
+80f416d51 Added AttachmentFloat
+cb1915efa Added minetest.drop_selected_item(), Improved AutoEject
+43ee069db Improved X-Ray, added AutoEject
+faa32610e Added ESP, fixed Tracers, improved Jesus
+ee88f4b94 Improved Tracers
+c36ff3edb Added AutoSneak and improved X-Ray MapBlock updating
+0a2c90f4c Only draw tracers to objects that are not attached (that fixes tracers to armor)
+044a12666 Added Tracers, NoSlow and NoForceRotate; GUI Colors changed
+b9f8f0a23 The Robot Update
+af085acbd Added Schematicas
+0730ed216 Delete my stupid test mod lol
+772c9629e Unrestricted HTTP API for Client, Server and Main Menu
+9b1030cac Added minetest.get_inventory(location)
+2321e3da4 Removed console output spammed by minetest.find_node_near
+90f66dad8 Removed experimental code
+8b4d27141 Fixed typo in clientmods/inventory/mod.conf
+d8b8c1d31 Added Documentation for Additional API
+6e6c68ba0 Added Chat Spam, Replace and settingtypes.txt for Clientmods
+79d0314d7 Update Buildbots
+770bde9c6 idk
+e245151c5 Improved World hacks
+19205f6b3 Improved World Hacks, added API functions
+73b89703f Improved World hacks, added fill
+248dedaba Added floationg water to BlockWater
+9dc3eb777 Fixed broken Chatcommands
+80371bc16 Added .listwarps
+1c29f21e0 Imporoved set_wield_index() to include camera update
+3bed0981d UI Update; Added AutoTool
+622d54726 Added DestroyWater (:P anon)
+9019e18b9 Some Updates
+107dec6c0 Added Coords
+f1760622e Added BrightNight
+2675bcca1 Added more cheats
+3d980cf57 Improved Xray and Fullbright
+85574cb53 Improved Freecam
+f7a042223 Added cheat Menu
+344fddc17 Improved Killaura and Chat position
+678559bb6 removed leagcy clientmods
+9194165cf Added autodig, moved chat
+064c25caa Added EntitySpeed
+5a8610c2f Added customizable keybindings, improved freecam, added special inventory keybind (by default ender inventory)
+83f59484d Fixed 5.4.0-dev build
+ffe3c2ae0 Update to minetest 5.4.0-dev
+45aa2516b Added settings
+f22339ed8 Removed fast killaura
+408e39a1d Added Anti Knockback
+eee0f960b Removed minetest.conf.old
+39d7567c1 Fixed Crash
+305e0e0d3 Auto disable smooth lighting when fullbright is active
+6796baec6 Defaultsettings
+5a2bf6634 Added Clientmods
+e610149c0 Initial Commit
+a87805a94 test
+68f9263a2 Hacked Client
+90d885506 GalwayGirl Client

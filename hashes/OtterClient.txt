@@ -1,0 +1,56 @@
+b50a0c4 Create android2.yml
+196a7d3 Update core.cpp
+8a53fcf Merge pull request #7 from otterminetest/testing
+52d18d1 tunnel esp
+1921869 make it so minimap doesn't hide cheathud
+865eef1 Update nodedef.cpp
+a8dcf49 Update showcase1.png
+7838586 Merge pull request #5 from otterminetest/testing
+ef77923 linux build error
+4f1d53f fix irr + fix nodeesp count
+2aef078 esp updates, cheathud changes
+d0f9dfd Update settingtypes.txt
+284a3bb sort cheat hud by rendered string length
+276323d bugfixes
+0deba57 Update README.md
+fd5c131 Update linux.yml
+4b62aed remove autorelease
+53f44b1 Update macos_arm.yml
+76db723 Update defaultsettings.cpp to trigger workflows
+d14e6af update workflows
+9d72bee Merge pull request #4 from otterminetest/testing
+77038ff Update README.md
+ef73f5a rename mobs->entities + add some docs
+202996b Merge pull request #3 from otterminetest/testing
+1a48e9d bolded text
+9c6157d Merge pull request #2 from otterminetest/testing
+ca7f18d autotool, lua inventory, + AssistAura->AutoAssist
+630ef49 add AssistAura
+95e0354 add reach, optional randomize_version, and zoom
+df1a2ed added killaura
+a63e6a5 Update windows.md
+7f57f07 revert fullbright change
+9bed1b9 fixed fullbright not lighting up objects
+06ae9ce fix compiling issues
+41ed1aa added friend system + bug fixes
+4ae89b0 sort cheats and cheat hud
+ebfe891 add toggles for fullbright, coords, and nofalldamage
+61303e4 update core.register_list_command
+8b06146 add map seed to get_server_info
+7e06efc Update .clang-tidy
+ba6e176 Revert "fix more clang-tidy errors..."
+1ae8c33 fix more clang-tidy errors...
+8ad8edb fix clang-tidy error
+f0217c3 make ActiveObjectMgr::getAllActiveObjects more efficient
+3677b4e use emplace_back instead of push_back
+10d8e7e fix windows build errors
+1d8d018 Merge pull request #1 from schmappie/schmappie/2024-05-10_x-ray
+9a10029 Reimplement X-Ray
+4cec784 keep texture_packs_here.txt file
+6a917e3 fix some docs
+dec3f52 Update README.md
+346bfa6 Update README.md
+090dcf4 Update test_content_mapblock.cpp
+ae9bce0 OtterClient
+af28fda minetest 5.9.0
+f9c0c84 Initial commit
