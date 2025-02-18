@@ -132,3 +132,4 @@ ef51206 redo logos
 439e7ab Update README.md
 d005e23 Initial Commit
 c006e4a Initial commit
+3cf3b69 Fix crash with appleaura
