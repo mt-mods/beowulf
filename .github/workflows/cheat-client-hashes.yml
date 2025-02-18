@@ -1,0 +1,28 @@
+name: cheat-client-hashes
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+      branches:
+        - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Generate hash list
+      run: python hashlist.py
+
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v6
+      with:
+        commit-message: "[CI] Update cheat client hash list"
+        committer: github-actions[bot]@users.noreply.github.com
+        author: github-actions[bot]@users.noreply.github.com
+        branch: cheat-client-hashes
+        delete-branch: true
+        title: "[CI] Update cheat client hash list"

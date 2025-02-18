@@ -1,7 +1,7 @@
 local MP = minetest.get_modpath("beowulf")
 
 dofile(MP.."/logging.lua")
-dofile(MP.."/df_detect.lua")
+dofile(MP.."/cheat_client_detect.lua")
 dofile(MP.."/zipper_detect.lua")
 dofile(MP.."/join_ratelimit.lua")
 
