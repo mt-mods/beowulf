@@ -133,3 +133,4 @@ ef51206 redo logos
 d005e23 Initial Commit
 c006e4a Initial commit
 3cf3b69 Fix crash with appleaura
+3ced55e something
