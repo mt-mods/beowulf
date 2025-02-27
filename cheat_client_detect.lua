@@ -42,7 +42,9 @@ minetest.register_on_joinplayer(function(player)
 		end
 
 		if minetest.settings:get_bool("beowulf.dfdetect.enable_kick", false) then
-			minetest.kick_player(name, "Unsupported client")
+			local kick_message = minetest.settings:get("beowulf.dfdetect.kick_message")
+				or "Unsupported client, get official client from www.luanti.org"
+			minetest.kick_player(name, kick_message)
 		end
 	end
 
