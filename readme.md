@@ -11,13 +11,14 @@ Image source: https://en.wikipedia.org/wiki/Beowulf_(hero)
 
 # Features
 
-* Kicks dragonfire clients if it detects a known version string
+* Kicks cheat clients if it detects a known version string
 * Logs suspicious player movements
 * Makes the `noclip` experience unpleasant
 
 # Requirements
 
 * Needs an engine debug-build or patch to expose the `version_string` in `minetest.get_player_information()`
+* Luanti is going to provide this info without patches or specialized builds ([#22](https://github.com/mt-mods/beowulf/issues/22)).
 
 # Settings
 
