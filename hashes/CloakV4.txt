@@ -137,3 +137,10 @@ c006e4a Initial commit
 59512e0 Merge branch 'main' of https://github.com/TeamAcedia/CloakV4
 41016b2 Fix apple aura crashing the game
 755f825 Add blink cheat
+f4af7d4 Merge pull request #7 from SaiPanneerselvam/patch-2
+6ee9de2 Fixes and added Flag Aura
+bdcbc2e ALlow low repeat place times by default
+ee34f3b Removed unknown characters
+a32cc61 Autostaff: Dont execute in singleplayer worlds
+ef51d37 Add basic animations to cheats and health esp
+6ade606 Adding small note for the menu overlapping
