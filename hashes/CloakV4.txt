@@ -144,3 +144,4 @@ ee34f3b Removed unknown characters
 a32cc61 Autostaff: Dont execute in singleplayer worlds
 ef51d37 Add basic animations to cheats and health esp
 6ade606 Adding small note for the menu overlapping
+9fa0b54 Major update to cheat menu, added HUD, made a new way to manage hud elements, and the ability to edit huds.
