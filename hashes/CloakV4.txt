@@ -148,3 +148,4 @@ ef51d37 Add basic animations to cheats and health esp
 9742732 fix bug with cheat hud elements
 0cc626c I have to fix my code editor
 54ca624 Oopsies
+8d06b80 Update autostaff.lua
