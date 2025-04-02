@@ -19,7 +19,7 @@ Image source: https://en.wikipedia.org/wiki/Beowulf_(hero)
 
 ## Luanti must expose `version_string` in `core.get_player_information()`
    * Luanti provides this info without patches or using debug builds since version **5.11.0**.
-      * See https://github.com/luanti-org/luanti/pull/15708 and https://github.com/luanti-org/luanti/commit/dd0070a6b8a28e2fe2ac591b3ea96813ba9ffcb0 for more information
+      * See https://github.com/luanti-org/luanti/pull/15708 for more information
    * Previous versions must be patched
       * Working patch: https://raw.githubusercontent.com/minetest-hosting/minetest-docker/c15e5aa5150a014c3a8bb3dfa1da41c67220a386/patches/player_debug_info.patch (can be applied using `patch -p1`)
 
