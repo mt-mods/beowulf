@@ -149,3 +149,6 @@ ef51d37 Add basic animations to cheats and health esp
 0cc626c I have to fix my code editor
 54ca624 Oopsies
 8d06b80 Update autostaff.lua
+1da7cdc Update defaultsettings.cpp
+9e70fdd Remove custom version string
+000df0b Make Orbit usable while flying
