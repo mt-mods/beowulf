@@ -152,3 +152,8 @@ ef51d37 Add basic animations to cheats and health esp
 1da7cdc Update defaultsettings.cpp
 9e70fdd Remove custom version string
 000df0b Make Orbit usable while flying
+adbcdbf remove thing that makes scaffold unusable
+40cac20 Update defaultsettings.cpp
+0e908b6 also add settings
+49212f0 add spammer cheat
+1658338 Implement Burrowing_Owl's combat enhancements
