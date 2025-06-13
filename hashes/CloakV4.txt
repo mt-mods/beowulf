@@ -157,3 +157,10 @@ adbcdbf remove thing that makes scaffold unusable
 0e908b6 also add settings
 49212f0 add spammer cheat
 1658338 Implement Burrowing_Owl's combat enhancements
+e6014b6 Add a buggy TP-Aura
+d77df95 Rewrite scaffold plus to make it better
+01176ec Fix delta time
+c66e20d Update defaultsettings.cpp
+548a69e Fix hotbar alignment
+204063b Update README.md
+18d2f81 Update README.md
