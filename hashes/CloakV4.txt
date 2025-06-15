@@ -164,3 +164,10 @@ c66e20d Update defaultsettings.cpp
 548a69e Fix hotbar alignment
 204063b Update README.md
 18d2f81 Update README.md
+357c13c Merge pull request #15 from nrz-21/main
+5e3c1d8 Revert defaultsettings.cpp
+b8b18e5 Revert game.cpp
+f288116 Revert cheats.lua
+bd434fc Update core.cpp
+d216667 Check Velocity
+2bead48 Fix compiler warnings
