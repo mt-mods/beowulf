@@ -171,3 +171,6 @@ f288116 Revert cheats.lua
 bd434fc Update core.cpp
 d216667 Check Velocity
 2bead48 Fix compiler warnings
+905b120 bind for orbit
+f1fbbfe Update defaultsettings.cpp
+595850f added advice for cheat hud elements settings
