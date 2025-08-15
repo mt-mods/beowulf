@@ -174,3 +174,116 @@ d216667 Check Velocity
 905b120 bind for orbit
 f1fbbfe Update defaultsettings.cpp
 595850f added advice for cheat hud elements settings
+ffcb0fc Add chat effects cheat
+22db898 Fix warningstream spam
+fd9eac7 Update README.md
+045c5ed fix left hand and stupid crash
+5907268 Move skybox settings
+2f4f83f AntiAFK
+55685f8 Fix hud elements bug and autostaff
+6659411 Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+849ed8c AutoStaff (kinda)
+38b2de4 Minor Fixes
+0cca344 Add Blink back
+79aaa60 Fix HUD elements stacking up
+0af26f6 Rename to CloakV4
+78909f9 Fix main menu issues and update team acedia dns address to a more permanent one
+d1e31ac Fix scaffold placing apples and other items
+96bb208 Fix orbit and manypunches
+8e9950f Tried fixing custom skybox, isn't working...
+01c84f8 Add .lenny
+2d7ac6f Fix health esp rendering on top of hud
+6242a9f Create autocraft.lua
+facbcf7 Fix autoteam crash
+a12e883 Revert "Add NSFW ascii spammer"
+5f1f76b Add NSFW ascii spammer
+f78bbf0 fix auto team and fix crash
+1d204ae fix node ESP
+224a812 fov slider and some other stuff
+4b3efe6 add settings to bhop
+37f528a custom sky
+484faf2 Return back bunny hop
+c994f56 Return back bunny hop
+e278cb4 Add nametags
+c979a5b some shit
+ede6932 fix crash, adjust size of buttons to look better in 1920x1080 resolution
+e0d84c5 fix bugg?
+e7e10ee Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+7b831cd Add basic cosmetic system ( it sucks but atleast it works )
+2da8836 Don't show "keybindings changed" pop-up thing
+ce2938d Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+24a4bc5 Sigma sigma boy sigma boy okay okay fine its actually accounts and even more menu features
+750e33e Don't show quick menu while clickgui is on because it overlaps
+96f91d2 fix "Enemies Only" setting
+2bdc107 fix some bugs
+e4625e0 Maybe fix crash and also dlg_rebind_keys crash
+16485b4 Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+fec585f Fix dtime
+5b0545f Make Click GUI keybind customizable
+55adffa Completely rewrite main menu, fx some minor bugs, fix a crash, make it look 100% more sexy
+f4df8a1 adjust some themes and add rainbow theme
+85d8364 Add cheat menu customization
+2bc5dca remove workflows
+b9745b1 Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+5c1d95c reimplement coords, targethud and target highlight
+8caa6e7 Implement Strata
+9b8c75d NoViewBob and scaffold keybind
+7f4907c healthESP, NoDrownCam and NodeESP settings
+c3889d0 panic
+0bb18ba add keybindings
+4c3ec5a Add settings, descriptions and fix entity ESP
+013b1fa autototem and inventory cheats
+c96769c flagaura
+a72951f AutoTeam
+3e48e62 combatlog and step infotext
+0d23b46 spammer, appleaura, autoheal
+ba2d6b8 World cheats and Step
+12aea1d add physics override
+77eba6d fix error and remove some unused stuff
+673c30c Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+b25ae4b add combat cheats and a ton other things to make them work
+276ecb5 add a pathfinder which works decently well
+733d903 Completely seperate local player and freecam
+c0a5c8b Add clickGUI, cheat settings, infotexts, cheat descriptions,  HD font and cleaner QuickMenu
+35757cd NoForceRotate
+6eed4ad add mapseed to get_server_info and minetest.dig_node remove node
+6aad515 on_object_add and on_object_properties_change callbacks
+25c2757 on_object_properties_change, set_properties; get_properties, on_object_hp_change and nametag textures
+b275512 get_nearby_objects, get_hotbar_size and waspsaliva formspec API
+b8c2053 Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+5214945 add physics override
+9a9ac08 Start adding lua control
+1bd0e64 Add DetachedCamera cheat and fix compiler warnings
+d21940a take_screenshot
+74293c7 get_object
+9a2c35d Fix set look dir, fixed compiler errors for visual studio, and improved behavior of freecam
+77a2074 find_nodes_near_under_air_except
+cf4837b Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+edf440b Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+3959816 remove goofy comments
+c6d777e WIP implementation of various csm api functions and stuff
+3f79849 Add task nodes and tracers
+dc7a65d Move esp and tracers to render pipeline
+667bc43 Autotool and inventoryactions api
+86ab1b5 Lots of movement cheats
+f2e107f FastHit, AutoHit, FastPlace, AutoPlace, AutoDig, Fastdig, Instantbreak
+438cd2e Added Reach and AutoRespawn
+73af49e Add nohurtcam and noparticles
+9c708d2 Add antiknockback, attachmentfloat and nofalldamage
+2840624 update ESP
+fdeccef Add ESP and tracers cheats
+672acc6 Add freecam
+c2ee75e Add xray and get_pointed_thing()
+9402880 Merge pull request #1 from plus-22/moving-stuff
+a5450df fullbright and some mapblocks callback stuff
+a9e4b9c lua api stuff and more
+b2b8230 fix the previous commit
+cfffa76 move some stuff
+f877f14 Added priv bypass and brightnight
+1f1015b Merge branch 'main' of https://github.com/plus-22/thingy
+88f7f9d make chat change position
+379a603 fix cheat menu
+8691147 do a thing
+72a6d02 try to add cheat menu
+3800ae3 Luanti 5.12.0
+a2b6822 Initial commit
