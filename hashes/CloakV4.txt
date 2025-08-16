@@ -287,3 +287,4 @@ f877f14 Added priv bypass and brightnight
 72a6d02 try to add cheat menu
 3800ae3 Luanti 5.12.0
 a2b6822 Initial commit
+67bd0c9 Start implementing triggerbot
