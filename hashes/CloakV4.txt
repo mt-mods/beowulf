@@ -287,3 +287,141 @@ f877f14 Added priv bypass and brightnight
 72a6d02 try to add cheat menu
 3800ae3 Luanti 5.12.0
 a2b6822 Initial commit
+624b3dd05 Merge pull request #19 from Bapt-Tech/patch-1
+1ad90c98f Add personality profiles
+42221aa0b Fix killaura not working if noflag is false and make the aiming time optional
+312a59762 Update linux.md
+9736dc7f6 Add get_send_pitch, get_send_yaw, get_send_keys_pressed, and NoFlag mode for killaura
+eaba15120 Fix step sounds when in free cam
+46caee2cb fixed left hand
+78d8b3514 Fix crash
+9f90eea00 Update macos.yml
+47dd7b94b Add support for older linux and macos versions using color themes
+5bca595c5 Update macos.yml
+7901b3a87 Update build_xcode.sh
+ba85883d8 Update output file path for windows compile target
+3157ad98b rename to cloakv4
+2281c649b Add Mac compiling
+f60850f17 Maybe fix the fail for compiling?
+2e8b72777 goofy
+343f2829f Fix missing file
+a1c123085 Remove some compilers to save credits
+2992922dc Bump CI runners windows-2019 to windows-2025
+5b9a3230d Add linux and windows workflows ( please work )
+1a05b2190 Merge branch 'main' of https://github.com/TeamAcedia/CloakV4
+efece6513 Update chatfilter_bypass.lua
+9eace0d8a Slightly modify main menu buttons
+67bd0c940 Start implementing triggerbot
+ffcb0fc39 Add chat effects cheat
+22db89833 Fix warningstream spam
+fd9eac761 Update README.md
+045c5edc2 fix left hand and stupid crash
+5907268a9 Move skybox settings
+2f4f83f1f AntiAFK
+55685f8e8 Fix hud elements bug and autostaff
+665941103 Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+849ed8cd2 AutoStaff (kinda)
+38b2de42c Minor Fixes
+0cca344eb Add Blink back
+79aaa6047 Fix HUD elements stacking up
+0af26f623 Rename to CloakV4
+78909f9c2 Fix main menu issues and update team acedia dns address to a more permanent one
+d1e31ac06 Fix scaffold placing apples and other items
+96bb208ea Fix orbit and manypunches
+8e9950faf Tried fixing custom skybox, isn't working...
+01c84f878 Add .lenny
+2d7ac6fae Fix health esp rendering on top of hud
+6242a9fa0 Create autocraft.lua
+facbcf76f Fix autoteam crash
+a12e883d3 Revert "Add NSFW ascii spammer"
+5f1f76bbe Add NSFW ascii spammer
+f78bbf015 fix auto team and fix crash
+1d204ae9d fix node ESP
+224a81282 fov slider and some other stuff
+4b3efe66e add settings to bhop
+37f528a47 custom sky
+484faf277 Return back bunny hop
+c994f56a9 Return back bunny hop
+e278cb4c9 Add nametags
+c979a5b43 some shit
+ede69329c fix crash, adjust size of buttons to look better in 1920x1080 resolution
+e0d84c5b6 fix bugg?
+e7e10ee57 Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+7b831cd2b Add basic cosmetic system ( it sucks but atleast it works )
+2da8836b5 Don't show "keybindings changed" pop-up thing
+ce2938d34 Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+24a4bc5cb Sigma sigma boy sigma boy okay okay fine its actually accounts and even more menu features
+750e33e36 Don't show quick menu while clickgui is on because it overlaps
+96f91d284 fix "Enemies Only" setting
+2bdc10701 fix some bugs
+e4625e033 Maybe fix crash and also dlg_rebind_keys crash
+16485b4fb Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+fec585f18 Fix dtime
+5b0545ff1 Make Click GUI keybind customizable
+55adffa86 Completely rewrite main menu, fx some minor bugs, fix a crash, make it look 100% more sexy
+f4df8a195 adjust some themes and add rainbow theme
+85d8364f6 Add cheat menu customization
+2bc5dca51 remove workflows
+b9745b10a Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+5c1d95c67 reimplement coords, targethud and target highlight
+8caa6e7d9 Implement Strata
+9b8c75d25 NoViewBob and scaffold keybind
+7f4907c56 healthESP, NoDrownCam and NodeESP settings
+c3889d079 panic
+0bb18ba56 add keybindings
+4c3ec5a97 Add settings, descriptions and fix entity ESP
+013b1fae1 autototem and inventory cheats
+c96769c62 flagaura
+a72951fc3 AutoTeam
+3e48e62cd combatlog and step infotext
+0d23b464a spammer, appleaura, autoheal
+ba2d6b834 World cheats and Step
+12aea1dc1 add physics override
+77eba6dd4 fix error and remove some unused stuff
+673c30c77 Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+b25ae4b77 add combat cheats and a ton other things to make them work
+276ecb5d9 add a pathfinder which works decently well
+733d90340 Completely seperate local player and freecam
+c0a5c8b2c Add clickGUI, cheat settings, infotexts, cheat descriptions,  HD font and cleaner QuickMenu
+35757cdf4 NoForceRotate
+6eed4ad1d add mapseed to get_server_info and minetest.dig_node remove node
+6aad5158c on_object_add and on_object_properties_change callbacks
+25c2757d7 on_object_properties_change, set_properties; get_properties, on_object_hp_change and nametag textures
+b275512db get_nearby_objects, get_hotbar_size and waspsaliva formspec API
+b8c205399 Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+521494519 add physics override
+9a9ac08de Start adding lua control
+1bd0e64cf Add DetachedCamera cheat and fix compiler warnings
+d21940ae8 take_screenshot
+74293c7a9 get_object
+9a2c35d77 Fix set look dir, fixed compiler errors for visual studio, and improved behavior of freecam
+77a2074a0 find_nodes_near_under_air_except
+cf4837b50 Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+edf440bef Merge branch 'main' of https://github.com/TeamAcedia/namelessclient
+395981651 remove goofy comments
+c6d777ef1 WIP implementation of various csm api functions and stuff
+3f79849cf Add task nodes and tracers
+dc7a65d88 Move esp and tracers to render pipeline
+667bc4388 Autotool and inventoryactions api
+86ab1b578 Lots of movement cheats
+f2e107fdd FastHit, AutoHit, FastPlace, AutoPlace, AutoDig, Fastdig, Instantbreak
+438cd2e62 Added Reach and AutoRespawn
+73af49e8e Add nohurtcam and noparticles
+9c708d25d Add antiknockback, attachmentfloat and nofalldamage
+284062488 update ESP
+fdeccef1f Add ESP and tracers cheats
+672acc6b2 Add freecam
+c2ee75e25 Add xray and get_pointed_thing()
+9402880df Merge pull request #1 from plus-22/moving-stuff
+a5450df8d fullbright and some mapblocks callback stuff
+a9e4b9c2a lua api stuff and more
+b2b8230ef fix the previous commit
+cfffa763c move some stuff
+f877f14c7 Added priv bypass and brightnight
+1f1015b15 Merge branch 'main' of https://github.com/plus-22/thingy
+88f7f9d60 make chat change position
+379a603d9 fix cheat menu
+86911471d do a thing
+72a6d020e try to add cheat menu
+3800ae353 Luanti 5.12.0
+a2b68229b Initial commit
