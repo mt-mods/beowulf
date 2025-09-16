@@ -1,0 +1,1 @@
+beowulf.noclip_hurt.enable (Enable noclip damage) bool false
