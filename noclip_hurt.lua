@@ -1,13 +1,24 @@
+local timer = 0
 
--- list of nodes to enable damage on
-local node_list = {}
+core.register_globalstep(function(dtime)
 
-if minetest.get_modpath("default") then
-    table.insert(node_list, "default:stone")
-end
+	timer = timer + dtime ; if timer < 1 then return end ; timer = 0
 
-for _, nodename in ipairs(node_list) do
-    minetest.override_item(nodename, {
-        damage_per_second = 5
-    })
-end
+	for _,player in pairs(core.get_connected_players()) do
+
+		local nod = core.get_node( player:get_pos() )
+		local ndef = core.registered_nodes[nod.name]
+
+		if ndef and ndef.walkable == true
+		and ndef.drowning == 0
+		and ndef.damage_per_second <= 0
+		and ndef.groups.disable_suffocation ~= 1
+		and ndef.drawtype == "normal"
+		and not core.check_player_privs( player:get_player_name(), {noclip = true} ) then
+
+			if player:get_hp() > 0 then
+				player:set_hp(player:get_hp() - 4, {suffocation = true})
+			end
+		end
+	end
+end)
