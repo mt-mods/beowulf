@@ -6,11 +6,11 @@ core.register_globalstep(function(dtime)
 
 	for _,player in pairs(core.get_connected_players()) do
 
-		local nod = core.get_node( player:get_pos() )
+		local pos = player:get_pos() ; pos.y = pos.y + 0.5
+		local nod = core.get_node(pos)
 		local ndef = core.registered_nodes[nod.name]
 
 		if ndef and ndef.walkable == true
-		and ndef.drowning == 0
 		and ndef.damage_per_second <= 0
 		and ndef.groups.disable_suffocation ~= 1
 		and ndef.drawtype == "normal"
