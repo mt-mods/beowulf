@@ -13,7 +13,7 @@ core.register_globalstep(function(dtime)
 		local ndef = core.registered_nodes[nod.name]
 
 		if ndef and ndef.walkable == true
-		and ndef.damage_per_second ~= 0
+		and ndef.damage_per_second == 0
 		and ndef.groups.disable_suffocation ~= 1
 		and ndef.drawtype == "normal"
 		and not core.check_player_privs( player:get_player_name(), {noclip = true} ) then
