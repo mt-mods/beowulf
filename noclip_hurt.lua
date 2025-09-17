@@ -6,7 +6,7 @@ core.register_globalstep(function(dtime)
 	if timer < 1 then return end
 	timer = 0
 
-	for _,player in pairs(core.get_connected_players()) do
+	for _, player in pairs(core.get_connected_players()) do
 
 		local pos = player:get_pos()
 		pos.y = pos.y + 0.5
