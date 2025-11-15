@@ -429,3 +429,54 @@ a2b68229b Initial commit
 7c5fd710e Fix builds made with workflows not including important files
 ec40d758e Rewrite most of the networking stuff
 5cc0b868a Add multicraft compatability ( kinda doesnt work )
+d52803216 idk if this is necessary but why not
+91e78ecb2 Improve key input system slightly
+385abe59f Fix crash triggered when in guest mode
+95e054855 update cmakelists
+9fe58665f Fix a couple compiler warnings
+f0f90f091 Minor rewrite of cosmetics handling
+3f6f9b379 Fix cosmetics crash
+10745686c Add more personality profiles
+df55a1783 remove useless file
+7bf6c49ec Reuse F key for DetachedCamera and make TriggerBot send fake key input
+8dbed0da3 update online menu (hope I didn't break anything)
+078166fbc Some changes to cosmetics menu
+88b9d9536 FINALLY FIX THE ELLUSIVE CRASH
+b03adb4a9 Improved hints and moved it to Client category
+3c9c23015 Add warps
+186f786c3 Merge branch 'main' of https://github.com/TeamAcedia/CloakV4
+70236c31e Fix data not getting refreshed when a player rejoins the server
+fbf5bf3ec Stop Shift + Escape shutting down the client
+c275158e2 Merge branch 'main' of https://github.com/TeamAcedia/CloakV4
+50e5c4364 Make autostaff ignore local player
+2533f1252 Fix capes lingering after players disconnect
+536544698 Do .zip instead
+125143b19 Rename .app to cloakv4 and add .dmg exporting
+861839306 Trigger rebuild
+fdb3d0689 Make suer all folders get copied over
+bc966ac8f Simple fix hopefully
+3518230b0 Can't believe I missed this
+902e7d2e4 remove debugging and fix error
+0dbe25a81 Start work on xcode build debugging
+d2b7a41e3 Fix issue with test and remove debugging
+99239fd0b Please please please work
+19f20da49 More debugging
+2fafa7df8 Add macos build debugging
+8b0eaf838 Continue work on MacOS
+a3a79931b Hopefully make macos work slightly better
+f495a3e63 Fix crash and update cosmetics bug
+168ce8016 Delete unused assets
+10de793d0 Completely rewrite cosmetics system and most of networking system
+9581f9075 Add client side entities
+d0cdb4b4c Fake key input for scaffold and funny stuff
+9a5b513de Fix crash when not signed in
+79a833a00 Update networking.lua
+e96b69a20 Make killaura settings more intuitive
+d9ae00994 Possible fix for stutter
+220a8bdeb Rewrite cosmetics code
+8fcb48aca The credits are actually to Gabriel btw lol
+5f4093498 Add .appimage creation ( credit to Adrian )
+5952cdd54 Update test_multiplayer.sh
+775314c30 Fix description background being too short
+043b26464 Fix unittests crashing
+46376959e Fix crash after sign in
