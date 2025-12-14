@@ -480,3 +480,9 @@ d9ae00994 Possible fix for stutter
 775314c30 Fix description background being too short
 043b26464 Fix unittests crashing
 46376959e Fix crash after sign in
+a090bb69c Add ThroughWalls, fix nametags and delete unused files
+b66612659 Fix setting name
+cce0df61f More changes to the clickGUI with regards of screen resolution
+a91dda1ea Rework nametags and fix HealthESP crash
+4dad20a66 update hours counter
+5709db962 Make clickGUI adapt to screen resolution and new scaling system
