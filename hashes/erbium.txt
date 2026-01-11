@@ -1,0 +1,65 @@
+5f56893d0 Fix for the fix for the fix
+19bcd4543 Fix whitespaces on the fix
+8800b613a Fix whitespaces
+208739c5f p o i n t e r s
+4857a73a2 Update TODO
+8e57c7cde Custom temp lighting (and removed fullbright)
+5518b1cb5 Fix Menu Header
+dcfa7a742 Lots of fixes on the stars
+f8035b0d4 Merge branch 'master' of https://www.github.com/IonicCheese/erbium
+00dbbf256 Twinkling main menu stars
+4e8d999da Revert font updates (#6)
+bb536194a Merge master branch
+b14e1d786 Fix the node-shader (how did that get removed?!!)
+205c39c3e Remove whitespaces (#7)
+eae201a98 Revert font changes
+4e1519f99 remove some whitespaces
+aca399b47 Merge branch 'master' of https://www.github.com/IonicCheese/erbium
+e1ee6e0c6 Custom Erbium Logo (WIP)
+9b991b9c8 Merge pull request #5 from a-bad-dev/master
+1c115f9d2 Fix broken link
+fdd9d3b7c Rename references of Luanti to Erbium
+35f88a8cd Make fullbright effect entities
+f3098651a Add Adjustable Fullbright
+c9e2755c6 Add temporary header, make dark theme default
+c396955c1 Add Fullbright
+69363bf21 Tick off "Configurable Chat macros" in TODO
+8d46b0007 Added Chat macros
+9a0a61b03 Added TODO
+40bc2c9f2 Merge pull request #3 from a-bad-dev/new-alias
+9e58481fa this should do it
+81069d100 Finally fix the issue
+b3a9842b6 Fix issue
+96a552ce5 Small logic change
+6bc4d9df9 Make luanti a deprecated alias
+77d22eb24 Add alias for luanti executable
+8203bb7a3 Lots of updates
+645102fab Fix dark mode again again again
+c0ccdbd0a Fix dark mode again again
+daf053e47 Fix dark mode again
+70b147dbb Fix dark mode (maybe?)
+0640f65e3 Add dark mode (commit 11)
+9c7cc382e Add dark mode (commit 10)
+44a23322a Add dark mode (commit 9.5)
+afe9e9be7 Add dark mode (commit 9)
+5fd65ba98 Add dark mode (commit 8)
+0759fd16b Add dark mode (commit 7)
+1fcae6b95 Add dark mode (commit 6)
+e854b1c0c Add dark mode (commit 5)
+291f6e414 Add dark mode (commit 4)
+881ce031a Add dark mode (commit 3)
+dd405d93f Add dark mode (commit 2)
+b7a7a312d Add dark mode in the menu (commit 1)
+6843361f1 Fix workflows (again)
+10d023c39 Revert warm lighting until it can be rebased
+8152bc535 Make lighting warmer
+78ed1cc95 Fix workflows
+a19300238 Bypass lower m_repeat_place_time limit (commit 2/2)
+16547b74f Bypass lower m_repeat_place_time limit (commit 1/2)
+fd7d4ce19 Rename to Erbium
+0c1587693 Fix missing comma
+6e2a0a56f Add custom ASCII art
+7ee68efeb Bypass CSM restrictions
+49dc122f3 Rename to Erbium
+e34a4d17f Merge pull request #1 from a-bad-dev/master
+e9a85c3d3 Custom version string
