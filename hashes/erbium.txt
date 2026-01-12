@@ -63,3 +63,5 @@ fd7d4ce19 Rename to Erbium
 49dc122f3 Rename to Erbium
 e34a4d17f Merge pull request #1 from a-bad-dev/master
 e9a85c3d3 Custom version string
+83fa66130 Update TODO
+4f1660b43 Add new items to TODO
