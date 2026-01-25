@@ -486,3 +486,4 @@ cce0df61f More changes to the clickGUI with regards of screen resolution
 a91dda1ea Rework nametags and fix HealthESP crash
 4dad20a66 update hours counter
 5709db962 Make clickGUI adapt to screen resolution and new scaling system
+8e3e658a2 merge flagaura into misc and remove a lot of globalsteps
