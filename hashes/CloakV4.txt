@@ -486,3 +486,10 @@ cce0df61f More changes to the clickGUI with regards of screen resolution
 a91dda1ea Rework nametags and fix HealthESP crash
 4dad20a66 update hours counter
 5709db962 Make clickGUI adapt to screen resolution and new scaling system
+20abf5834 Merge branch 'main' of https://github.com/TeamAcedia/CloakV4
+fb5199fc5 Static cape
+1f7ac766c Fix cosmetics visibility
+3bef24810 Merge pull request #25 from a-bad-dev/main
+7b62ef0be Add more peronality profiles 5.12.0 through 5.15.0 and 5.12.0-dev through 5.15.0-dev
+815e7d2a7 Add custom ASCII art
+8e3e658a2 merge flagaura into misc and remove a lot of globalsteps
