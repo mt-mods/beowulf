@@ -65,3 +65,4 @@ e34a4d17f Merge pull request #1 from a-bad-dev/master
 e9a85c3d3 Custom version string
 83fa66130 Update TODO
 4f1660b43 Add new items to TODO
+6027ef0c9 Batched stars (this rendering code is fun to read)
