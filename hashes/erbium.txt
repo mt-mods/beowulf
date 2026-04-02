@@ -66,3 +66,6 @@ e9a85c3d3 Custom version string
 83fa66130 Update TODO
 4f1660b43 Add new items to TODO
 6027ef0c9 Batched stars (this rendering code is fun to read)
+cc61d8f8b Update rebase version to 5.15.1
+b1db455a2 Merge #15
+7f4d42cb0 prevent -dirty from being appended to the version string
