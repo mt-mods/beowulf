@@ -1,0 +1,42 @@
+2d275b7 Update README.md
+10f7c55 Delete .github/workflows/windows.yml
+4c949f6 Trying to fix windows compilation error
+77a25e8 Try 6
+04458be Try 5?
+0edc4f7 Please work
+268c399 Trying to fix windows workflow, try 3
+7aa76f7 Trying to fix windows workflow, try 2
+e43374f Trying to fix windows workflow
+54be110 Update windows.yml
+4a6fb5c Trying to fix windows workflow
+6e4eb03 Create windows.yml
+a86ebc3 Update README.md
+5d69387 Update README.md
+a4356c7 	modified:   .gitignore
+4410344 Update content_cao.cpp
+ab09c1d Update client.cpp
+1514bdd Fix GenericCAO’s being rendered completely black when fullbright is on
+db3ec33 Fix typo
+3ce179d Triggering GitHub actions, again
+f8ac644 Merge pull request #4 from PhantomX-Z/main
+10f9586 Stupid file paths
+d35b1ff Triggering GitHub actions
+306b4e7 Merge pull request #3 from PhantomX-Z/main
+94a5aa0 Rename
+fa6489a Merge pull request #2 from PhantomX-Z/main
+dd4e145 A dirty fix to the blue screen issue
+55b0415 Update README.md
+5d26b81 Triggering GitHub actions
+d2b31a7 Update README.md
+56c00bd Update README.md
+bce8160 Update README.md
+edaa953 Update tab_credits.lua
+f2e7eea Update README.md
+1ccccb4 Merge pull request #1 from PhantomX-Z/main
+0a2dbef Merge branch 'main' into main
+c8397cd modifications
+9ea2726 Updated README.md
+f7e5753 Update README.md
+edb6898 Update README.md
+ad889db Update menu.lua
+37735d5 Initial commit

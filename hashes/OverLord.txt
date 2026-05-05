@@ -1,0 +1,6 @@
+c6aa81bc9 Update linux.md
+b256af8e3 Make hacked
+5842d8aec Update windows.md
+c418fe0c8 Update macos.md
+7ab3b7b38 Update linux.md
+f8f01e134 Squashing commits

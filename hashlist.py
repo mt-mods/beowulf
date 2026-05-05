@@ -12,6 +12,9 @@ cheat_client_urls = [
     "https://github.com/otterminetest/OtterClient",
     "https://github.com/TeamAcedia/CloakV4",
     "https://github.com/IonicCheese/erbium",
+    "https://github.com/astra0081X/Garud-Client",
+    "https://github.com/Xeno333/OverLord",
+    "https://codeberg.org/simpleclient/simpleclient",
 ]
 
 tmp = "./tmp"

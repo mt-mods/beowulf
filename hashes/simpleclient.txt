@@ -1,0 +1,47 @@
+ff3395bc2 Reintroduce enable_clouds setting
+5d2d2f70a Merge tag '5.15.0'
+acdf5504b Update item command descriptions
+35a18dc14 Add hash_node_position for clientmods
+e4f9d17ac Add get_inventory for clientmods
+057bf0413 Use dump when printing item metadata
+999cd7cfa Make coords toggleable at runtime
+1c328b8cb Bypass CSM restriction flags
+cf68fc11f Fix fullbright off by one error
+72c0b173b Add support for hex color escape sequences
+a3f9c4465 Add support for escape sequences in chat
+4556a9580 Update handling of formspec escapes
+9cf3811cc Fix line wrapping for text with color escapes
+23ec0cee0 Rename worldlgth to wordlgth
+bad6cb575 Add coords
+d40d3086b Fix fullbright
+61a08c384 Fix clientmod io security
+97c0bf25f Fix chat logging setting
+54bc50348 Merge branch 'master'
+147e2217a Add xray
+106f31644 Merge branch 'master'
+ede4451b4 Revert "Add xray"
+9827866de Add chatlog
+de4ebae4f Add io functions for clientmods
+fbe09cc96 Add .kill
+dc43e115d Add get_pointed_thing
+936e4e259 Add item commands
+7ab74005f Add inventory action API
+026eed7cd Add formspec escape sequences
+2b707d964 Prevent crashing when changing settings
+ec7bd841c Add xray
+6d0675db7 Add point_liquids
+0f2ba7e25 Add keybinding for toggling freecam
+2217c4642 Add freecam
+1a00d4075 Add reach
+09c3452cb Remove .github
+cc6c93725 Rename "Bypass privileges" to "Privilege bypass"
+e1488cce8 Add bright night
+322e32e00 Make fullbright false by default
+64cec2528 Remove tab on blank line
+072d4127e Make fullbright affect particles
+0313096d2 Update project name
+ef4c3c261 Add .set to change settings in game
+b1991ec8e Add "simpleclient" to version string
+0748baa53 Add fullbright
+76d96c90f Add no fall damage
+6f202621c Add privilege bypass
