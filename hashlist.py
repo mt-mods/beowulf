@@ -15,6 +15,7 @@ cheat_client_urls = [
     "https://github.com/astra0081X/Garud-Client",
     "https://github.com/Xeno333/OverLord",
     "https://codeberg.org/simpleclient/simpleclient",
+    "https://codeberg.org/Antilua/Antilua",
 ]
 
 tmp = "./tmp"
