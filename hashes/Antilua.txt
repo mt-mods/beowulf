@@ -438,3 +438,6 @@ e5c265a16 Translated using Weblate (Esperanto)
 3cc8c05f6 Added translation using Weblate (Cornish)
 2dd36836b Translated using Weblate (Indonesian)
 c995f1fe5 Translated using Weblate (Slovenian)
+b3fe9001b feat: camera roll with Q/E key bindings and Lua API
+20aca907e Fix Mesa GL_STATIC_DRAW bufferSubData performance warning
+a6a766957 Fix various startup warnings
