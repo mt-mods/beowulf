@@ -441,3 +441,20 @@ c995f1fe5 Translated using Weblate (Slovenian)
 b3fe9001b feat: camera roll with Q/E key bindings and Lua API
 20aca907e Fix Mesa GL_STATIC_DRAW bufferSubData performance warning
 a6a766957 Fix various startup warnings
+c322fb1a7 Add discord invite to readme
+92a233474 docs: document Sky and Clouds API
+c191d9bb4 test: add integration tests for Sky and Clouds API
+67e9a10f5 feat: add Sky and Clouds client-side Lua API
+5f9c07984 fix: read color/bgcolor fields from table instead of passing whole table to read_color
+7d1fa1914 docs: document minimap marker API
+c29c78bd6 test: add integration tests for minimap marker API
+19e8fb08e feat: add minimap marker API (add_marker, remove_marker, clear_markers)
+1ab426bb3 docs: document camera nametag API
+8e338c2a3 test: add integration tests for camera nametag API
+d5188a8b5 feat: add camera nametag API (add_nametag, remove_nametag, clear_nametags)
+b17ab8fe2 docs: document pitch wraparound, sound API, and localplayer physics extras
+5c2a54ba0 test: add integration tests for sound API and localplayer extras
+eb1eeedec feat: add LocalPlayer physics extras (collisionbox, eye_offset, standing_node, gravity, can_jump, autojump)
+5a871439f feat: wire up client sound_play API (was dead stub)
+e3ad4e51f feat: pitch wraparound setting for loopings
+e48836d75 feat: use get_roll() in flight HUD instead of setting
