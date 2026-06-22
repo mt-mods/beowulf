@@ -458,3 +458,17 @@ eb1eeedec feat: add LocalPlayer physics extras (collisionbox, eye_offset, standi
 5a871439f feat: wire up client sound_play API (was dead stub)
 e3ad4e51f feat: pitch wraparound setting for loopings
 e48836d75 feat: use get_roll() in flight HUD instead of setting
+ecab2e693 Fix blockexchange JSON error and schembuilder undeclared global
+2de22ba2c Fix blockexchange login: handle raw JWT token response
+aae4edae2 Fix client-side HTTP API (CSM)
+e2706d0ac Windows build fixes: rename ToastType::ERROR, guard POSIX pipe code
+e790eb08a Fix SkyLocker timing and enhance NodeMetaSniffer with metadata diffs
+390e9bc88 Enable new cheat mods in mods.conf
+5e9968453 Add 7 new cheats: ParticleBlocker, ParticleSaver, SkyLocker, HUDLocker, NodeMetaSniffer, InvLogger, InvSnapshot
+9589ae565 Add register_on_hud_flags_changed, register_on_hud_param_changed, register_on_inventory_action callbacks
+54fd04d65 Add register_on_sky_changed and register_on_clouds_changed Lua callbacks
+b31c1101c Add register_on_nodemetadata_change Lua callback
+d2824221d Add register_on_inventory_update Lua callback
+faf61049b Add register_on_delete_particlespawner Lua callback
+4807e82ce Add register_on_stop_sound and register_on_fade_sound Lua callbacks
+d58d22df0 Activate 5 dead Lua callbacks: object_add, object_hp_change, object_properties_change, sending_inventory_fields, sending_nodemeta_fields
