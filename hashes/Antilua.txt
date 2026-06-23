@@ -472,3 +472,15 @@ d2824221d Add register_on_inventory_update Lua callback
 faf61049b Add register_on_delete_particlespawner Lua callback
 4807e82ce Add register_on_stop_sound and register_on_fade_sound Lua callbacks
 d58d22df0 Activate 5 dead Lua callbacks: object_add, object_hp_change, object_properties_change, sending_inventory_fields, sending_nodemeta_fields
+11d4fd5bc docs: add commit discipline guidelines to AGENTS.md
+c86ef8f2a fix: test warnings - v2f y coord and empty INTERACT packets
+1f05af647 fix: use fabsf(cos_r) to prevent pitch inversion at roll > 90°
+187537a3c feat: add camera roll settings to settingtypes.txt
+0895b66d9 docs: document camera roll enhancement settings
+14abad75b feat: implement roll-adapted mouse control
+33566ecfd feat: implement camera roll auto-reset with smooth decay
+831c21939 feat: track input idle time for camera roll auto-reset
+f570f6146 feat: add camera roll auto-reset state fields
+f8942901c feat: add camera roll auto-reset and adaptive mouse settings
+dba85c67d Add camera roll enhancements spec
+bd4e66159 Add integration tests for client HTTP API
