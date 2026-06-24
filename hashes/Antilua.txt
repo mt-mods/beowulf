@@ -484,3 +484,4 @@ f570f6146 feat: add camera roll auto-reset state fields
 f8942901c feat: add camera roll auto-reset and adaptive mouse settings
 dba85c67d Add camera roll enhancements spec
 bd4e66159 Add integration tests for client HTTP API
+c299be2e3 Add antilua-lua-pipe skill: named pipe IPC control workflow
