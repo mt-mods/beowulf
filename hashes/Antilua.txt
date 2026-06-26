@@ -485,3 +485,30 @@ f8942901c feat: add camera roll auto-reset and adaptive mouse settings
 dba85c67d Add camera roll enhancements spec
 bd4e66159 Add integration tests for client HTTP API
 c299be2e3 Add antilua-lua-pipe skill: named pipe IPC control workflow
+f7a9aa918 Auto-load all client mods from clientmods/ instead of whitelist-based mods.conf
+86b7940de Document core.encode_png, decode_image, write_file in CSM API docs
+100539dbe Use libpng for PNG encoding (prefilters, proper compression) + register encode_png on client
+7931fb561 Always snap to map grid corners, remove grid toggle
+15b59f4e9 Fix upside-down schematic: reverse Z iteration order
+2a845c0d2 Add mapart_grid_new setting to switch between old/new map grid
+e38de1443 Add --grid flag: align schematic placement to old map grid
+e13677893 Add inventory-only option: filters palette to blocks the player has
+1ab774974 Fix serialize_schematic: emit entry for every position (including air for transparent pixels)
+2000e3056 Fix palette loading: use get_modpath_real for real filesystem path (VFS path from get_modpath doesn't work with read_file)
+90c5e39d8 Add palette load logging and re-enable debug output in /mapart
+075e6394b Improve palette loading error reporting
+eff8e95fd Load palette synchronously instead of deferred
+91dc812ec Add mapart settingtypes.txt
+2a3ab241e Fix mapart mod: name match directory, replace os.getenv with settings
+74a21eb58 Enable mapart mod by default
+6259d15dd Fix mapart integration: nil-guard global access, suppress undeclared warning
+fac928438 Fix mapart tests: remove encode_png dependency, fix pcall assumption
+6ff95b0ec Add mapart integration tests
+95b373b97 Add Mapart tab to schembuilder formspec
+6ed5e070d Add mapart mod: palette, color matching, formspec, chat command
+385332aa6 Add mapart mod.conf
+6dbe0808a Copy mcl_maps colors.json for mapart
+b48559e7d Add null check on rendering device in decode_image
+484a706e3 Add core.decode_image() and core.write_file() Lua bindings
+c69d71c29 Add mapart implementation plan
+6b9302661 Add mapart design spec
