@@ -512,3 +512,12 @@ b48559e7d Add null check on rendering device in decode_image
 484a706e3 Add core.decode_image() and core.write_file() Lua bindings
 c69d71c29 Add mapart implementation plan
 6b9302661 Add mapart design spec
+b281f2631 Remove core.mkdir call: mod security blocks writes to other mod dirs, /tmp default already exists
+901bd2bc7 Major improvements: single-pass PNG scan, optional compression arg, mkdir on client, output dir creation, namespaced schembuilder API, img-size defaults, bilinear filter, chunked progress, palette cache, color-matched preview
+47c9b2d31 Schembuilder bot now digs existing nodes before placing blocks
+d5dbd5de8 Add /clear_particles chat command
+0f465a21f Fix encode_png calls: pass 4th arg (compression) and use raw string not table
+10995679b Add compute_safe_stand_pos: schembuilder bot avoids head-in-block when placing
+e95707aa0 Add /test_encode_png chat command for encode_png roundtrip verification
+b39a419ed Fix upside-down wall: reverse Y iteration in image_to_wall_schem
+d6d692190 Add wall mode: image_to_wall_schem, /mapart_wall, mode dropdown in formspec
