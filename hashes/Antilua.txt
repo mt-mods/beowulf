@@ -521,3 +521,10 @@ d5dbd5de8 Add /clear_particles chat command
 e95707aa0 Add /test_encode_png chat command for encode_png roundtrip verification
 b39a419ed Fix upside-down wall: reverse Y iteration in image_to_wall_schem
 d6d692190 Add wall mode: image_to_wall_schem, /mapart_wall, mode dropdown in formspec
+318fe591f docs: add camera roll enhancements plan
+e7d5513c1 schematics: add al.mts and cra.mts for schembuilder
+76365938b feat: add ReconnectManager for auto-reconnect
+d59befbae test: add test for core.get_nodes_in_area
+c1c44b788 fix: macOS OpenGL context creation
+83c985000 fix: commit missing al_client_map source files (untracked, broke fresh builds)
+8a80079d4 Add fullbright_min_level: configurable minimum brightness (0-15) for fullbright cheat, affects nodes and entities
