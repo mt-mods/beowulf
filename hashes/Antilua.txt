@@ -529,3 +529,5 @@ c1c44b788 fix: macOS OpenGL context creation
 83c985000 fix: commit missing al_client_map source files (untracked, broke fresh builds)
 8a80079d4 Add fullbright_min_level: configurable minimum brightness (0-15) for fullbright cheat, affects nodes and entities
 492c5d3c2 fix: macOS share path fallback when not in .app bundle
+c45e6cbd1 Fix Windows build: replace pid_t/kill/unlink with portable helpers
+653a7e466 Implement NoFallDamage cheat via on_damage_sending Lua callback
