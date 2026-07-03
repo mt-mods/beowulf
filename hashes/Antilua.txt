@@ -531,3 +531,5 @@ c1c44b788 fix: macOS OpenGL context creation
 492c5d3c2 fix: macOS share path fallback when not in .app bundle
 c45e6cbd1 Fix Windows build: replace pid_t/kill/unlink with portable helpers
 653a7e466 Implement NoFallDamage cheat via on_damage_sending Lua callback
+83502b7ec C++: isolate antilua additions from upstream code — CameraRollController, settings consolidation, cleanup
+707b7e80b clientmods: major cleanup — bug fixes, dead code removal, handler consolidation, file splitting
