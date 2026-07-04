@@ -533,3 +533,6 @@ c45e6cbd1 Fix Windows build: replace pid_t/kill/unlink with portable helpers
 653a7e466 Implement NoFallDamage cheat via on_damage_sending Lua callback
 83502b7ec C++: isolate antilua additions from upstream code — CameraRollController, settings consolidation, cleanup
 707b7e80b clientmods: major cleanup — bug fixes, dead code removal, handler consolidation, file splitting
+8d4930b0b add clientmods/PRIV modpack for private mods, gitignore it
+784f7882e ignore all server-sent CSM restriction flags
+773d0fb42 Add raw MTP packet injection API (send_raw_mtp_packet + get_peer_id)
