@@ -536,3 +536,7 @@ c45e6cbd1 Fix Windows build: replace pid_t/kill/unlink with portable helpers
 8d4930b0b add clientmods/PRIV modpack for private mods, gitignore it
 784f7882e ignore all server-sent CSM restriction flags
 773d0fb42 Add raw MTP packet injection API (send_raw_mtp_packet + get_peer_id)
+6ad547d44 update README.md: remove nonexistent mods, add missing mods, fix descriptions
+cd362c51b fix missing mod dependencies: sbots→rhythmtp, event_logger→nlist, place→wasplib, wasplib→tps_client
+0371c807a code quality: fix clear_wps iterate-remove, DTE leaks/print/copy, mapart dead code, os.clock→get_us_time, duplicate between()
+1f0713382 fix critical bugs: override_item crash, autoeat nil crash, tps_client HUD, devtools nil, fishbot game detection
