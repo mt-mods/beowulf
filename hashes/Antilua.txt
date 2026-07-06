@@ -540,3 +540,19 @@ c45e6cbd1 Fix Windows build: replace pid_t/kill/unlink with portable helpers
 cd362c51b fix missing mod dependencies: sbots→rhythmtp, event_logger→nlist, place→wasplib, wasplib→tps_client
 0371c807a code quality: fix clear_wps iterate-remove, DTE leaks/print/copy, mapart dead code, os.clock→get_us_time, duplicate between()
 1f0713382 fix critical bugs: override_item crash, autoeat nil crash, tps_client HUD, devtools nil, fishbot game detection
+eb7a23dfa dte: add syntax highlighting preview with Lua tokenizer
+a775a4ced dte: add LUA CONSOLE tab (REPL)
+898bf85e1 dte: make window resizable via dte_width/dte_height settings
+15653ac75 dte: fix error reporting — separate syntax errors from runtime errors
+441db1f1b dte: remove dead UI file system and COMING SOON tabs
+be5cdab30 cheat menu: make panel opacity configurable, default to 80%
+a9c08f1f5 font: make unifont display more robust with last-resort fallback and better diagnostics
+b4cf9f47a render cheat menu above chat, add cheat_menu_rearrange setting and .cheat_rearrange command
+7c18f4c81 cheat menu: improve panel overlap prevention
+2455e7245 fix cheat_hud rainbow: pass actual frame dtime instead of time_from_last_punch
+246f784b6 fix cheat_hud.speed setting key (dot separator, not underscore)
+7e5a24a77 cheat_hud: add configurable rainbow animation speed setting
+096bfb438 pause menu: increase height to fit all buttons, add noprepend
+0d364f2e5 code quality: move hit_objects before use, register_list_command deprecation warning, remove unexplained BlockSources area check, use register_chatcommand for blockstats
+8bbf77f6d robustness: autoeat hud nil guard, devtools localplayer guard, gaim param shadow, os.clock→wall time, dte stubs/globals, PARTICLE_TTL, nlist delete, spongebot perf, event_logger set lookup, autocraft throttle, autominer autoeat restore, farmtool water list
+bc5fe90f9 fix crash bugs: dumpfull nil, autominer arg swap, poi ws.dig_node, formspec dead logic, tps_client corruption, combat time mismatch
