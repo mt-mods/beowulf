@@ -556,3 +556,12 @@ b4cf9f47a render cheat menu above chat, add cheat_menu_rearrange setting and .ch
 0d364f2e5 code quality: move hit_objects before use, register_list_command deprecation warning, remove unexplained BlockSources area check, use register_chatcommand for blockstats
 8bbf77f6d robustness: autoeat hud nil guard, devtools localplayer guard, gaim param shadow, os.clock→wall time, dte stubs/globals, PARTICLE_TTL, nlist delete, spongebot perf, event_logger set lookup, autocraft throttle, autominer autoeat restore, farmtool water list
 bc5fe90f9 fix crash bugs: dumpfull nil, autominer arg swap, poi ws.dig_node, formspec dead logic, tps_client corruption, combat time mismatch
+af8de35ae al: fix quick palette keyboard focus via g_quick_palette_active global
+a937c1260 al: unpin fav/super panels and force them to left edge
+0c7b9a997 al: add pinnable supermenu with category drill-down
+433a021ca al: add quick access palette (tilde key)
+2fc0094f3 al: add search/filter bar to cheat menu overlay
+eabecf320 al: add favorites panel with star icon per cheat
+60dde304f schembuilder: declare PARTICLE_TTL as local
+c9558657a dig: remove deprecated register_list_command call
+dc5eb6f66 al: add cheat_menu_toggle_mode setting for Tab toggle behavior
