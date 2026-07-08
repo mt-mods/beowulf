@@ -565,3 +565,7 @@ eabecf320 al: add favorites panel with star icon per cheat
 60dde304f schembuilder: declare PARTICLE_TTL as local
 c9558657a dig: remove deprecated register_list_command call
 dc5eb6f66 al: add cheat_menu_toggle_mode setting for Tab toggle behavior
+60a91f83c al: reorganize settingtypes — move theme to _al.txt, remove dead cheat_menu_* color entries, fix section headers
+8c7a1d773 al: swap normal and active row bg defaults (black normal, dark gray active)
+261b61c8f al: add theme color settings to settingtypes_al.txt with updated defaults
+bb114be4d al: swap panel bg and active row bg defaults (black panel, dark gray active)
