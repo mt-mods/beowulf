@@ -569,3 +569,7 @@ dc5eb6f66 al: add cheat_menu_toggle_mode setting for Tab toggle behavior
 8c7a1d773 al: swap normal and active row bg defaults (black normal, dark gray active)
 261b61c8f al: add theme color settings to settingtypes_al.txt with updated defaults
 bb114be4d al: swap panel bg and active row bg defaults (black panel, dark gray active)
+1023d4019 al: reserve left column for fav/super panels, prevent overlap
+871e802a5 help: fix formspec handler — check mod buttons before filter, use button_exit
+7e430bfa2 help: add no_prepend and scroll container to formspecs
+03b00e77e help: auto-generated keybind reference, searchable index, cheat settings help button
