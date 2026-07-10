@@ -573,3 +573,440 @@ bb114be4d al: swap panel bg and active row bg defaults (black panel, dark gray a
 871e802a5 help: fix formspec handler — check mod buttons before filter, use button_exit
 7e430bfa2 help: add no_prepend and scroll container to formspecs
 03b00e77e help: auto-generated keybind reference, searchable index, cheat settings help button
+77c3654a3 fix: replace Lua 5.3 // floor division with math.floor() for LuaJIT compat
+274f2556f add three new cheat mods: item_esp, sign_reader, auto_swim
+1207490a4 fix: make core.send_respawn() work on modern servers (protocol 46+)
+332d392d0 skill: add playing-the-game guide — Lua pipe gameplay, crafting, respawn fix, scripts
+e9f721d1e skill: update rebase guide — remove FFP, add squash/cherry-pick/l_get_object insights
+f55b1331c fix: suppress chat/inventory in cheat menu, fix ~ backtick bug, fix fmod warnings
+d65074149 fix duplicate pipe_lua_path default setting
+dd41cc4b1 Windows: add client lua pipe integration test
+d0dbca985 Windows: fix session detach/reattach
+76546ab6d Windows: add client lua pipe
+9e4382276 al: remove dead FFP remnants — m_enable_shaders, m_use_shaders, shader_warning_component, enable_shaders setting
+4b460675b fix: l_get_object no longer buries ClientObjectRef under HUD table
+e814c752f skill: add rebase guide with conflict patterns and post-rebase checklist
+4e8be9bc1 al: reserve left column for fav/super panels, prevent overlap
+2af459472 help: fix formspec handler — check mod buttons before filter, use button_exit
+695835749 help: add no_prepend and scroll container to formspecs
+278fa81ca help: auto-generated keybind reference, searchable index, cheat settings help button
+93b6e0087 al: reorganize settingtypes — move theme to _al.txt, remove dead cheat_menu_* color entries, fix section headers
+67aec5205 al: swap normal and active row bg defaults (black normal, dark gray active)
+d30c5e3dd al: add theme color settings to settingtypes_al.txt with updated defaults
+f20d84c13 al: swap panel bg and active row bg defaults (black panel, dark gray active)
+643b532f3 al: fix quick palette keyboard focus via g_quick_palette_active global
+89ad20fe8 al: unpin fav/super panels and force them to left edge
+89dce1212 al: add pinnable supermenu with category drill-down
+bcd44c844 al: add quick access palette (tilde key)
+3946b0492 al: add search/filter bar to cheat menu overlay
+ab49eeb3f al: add favorites panel with star icon per cheat
+a26ad8fa4 schembuilder: declare PARTICLE_TTL as local
+eb30b4821 dig: remove deprecated register_list_command call
+03750fce8 al: add cheat_menu_toggle_mode setting for Tab toggle behavior
+f58ebfb10 dte: add syntax highlighting preview with Lua tokenizer
+8d18a0a36 dte: add LUA CONSOLE tab (REPL)
+7364d0809 dte: make window resizable via dte_width/dte_height settings
+ad5a2c93a dte: fix error reporting — separate syntax errors from runtime errors
+a41632fc3 dte: remove dead UI file system and COMING SOON tabs
+623f1760e cheat menu: make panel opacity configurable, default to 80%
+32df62cb2 font: make unifont display more robust with last-resort fallback and better diagnostics
+d284d195f render cheat menu above chat, add cheat_menu_rearrange setting and .cheat_rearrange command
+c7c9d4c7f cheat menu: improve panel overlap prevention
+276475271 cheat_hud: add configurable rainbow animation speed setting
+ce1863d45 pause menu: increase height to fit all buttons, add noprepend
+451e09a39 code quality: move hit_objects before use, register_list_command deprecation warning, remove unexplained BlockSources area check, use register_chatcommand for blockstats
+84e4c718b robustness: autoeat hud nil guard, devtools localplayer guard, gaim param shadow, os.clock→wall time, dte stubs/globals, PARTICLE_TTL, nlist delete, spongebot perf, event_logger set lookup, autocraft throttle, autominer autoeat restore, farmtool water list
+3d4299330 fix crash bugs: dumpfull nil, autominer arg swap, poi ws.dig_node, formspec dead logic, tps_client corruption, combat time mismatch
+02febf29d update README.md: remove nonexistent mods, add missing mods, fix descriptions
+eb15980c2 fix missing mod dependencies: sbots→rhythmtp, event_logger→nlist, place→wasplib, wasplib→tps_client
+af8abb463 code quality: fix clear_wps iterate-remove, DTE leaks/print/copy, mapart dead code, os.clock→get_us_time, duplicate between()
+9dd51962e fix critical bugs: override_item crash, autoeat nil crash, tps_client HUD, devtools nil, fishbot game detection
+f31cf1ee6 add clientmods/PRIV modpack for private mods, gitignore it
+abce14549 ignore all server-sent CSM restriction flags
+cba8ad1bc Add raw MTP packet injection API (send_raw_mtp_packet + get_peer_id)
+f37d199a1 C++: isolate antilua additions from upstream code — CameraRollController, settings consolidation, cleanup
+762a56477 clientmods: major cleanup — bug fixes, dead code removal, handler consolidation, file splitting
+df5edea6b Fix Windows build: replace pid_t/kill/unlink with portable helpers
+eb25538fd Implement NoFallDamage cheat via on_damage_sending Lua callback
+f4d634ab0 fix: macOS share path fallback when not in .app bundle
+ed124aaf8 docs: add camera roll enhancements plan
+800d872c5 schematics: add al.mts and cra.mts for schembuilder
+bcd132ba3 feat: add ReconnectManager for auto-reconnect
+59085410a test: add test for core.get_nodes_in_area
+cb7cf4bc7 fix: commit missing al_client_map source files (untracked, broke fresh builds)
+e4c2b0b4e Add fullbright_min_level: configurable minimum brightness (0-15) for fullbright cheat, affects nodes and entities
+37b357274 Remove core.mkdir call: mod security blocks writes to other mod dirs, /tmp default already exists
+f8b70cd40 Major improvements: single-pass PNG scan, optional compression arg, mkdir on client, output dir creation, namespaced schembuilder API, img-size defaults, bilinear filter, chunked progress, palette cache, color-matched preview
+4d1131fec Schembuilder bot now digs existing nodes before placing blocks
+8473fc73e Add /clear_particles chat command
+b970c3354 Fix encode_png calls: pass 4th arg (compression) and use raw string not table
+1abc217d2 Add compute_safe_stand_pos: schembuilder bot avoids head-in-block when placing
+2e6d0758d Add /test_encode_png chat command for encode_png roundtrip verification
+0e849bfa2 Add core.decode_image() and core.write_file() Lua bindings
+be64cef71 Add mapart implementation plan
+aabf6a9fa Add mapart design spec
+f44739f18 Add antilua-lua-pipe skill: named pipe IPC control workflow
+5c5d09f88 docs: add commit discipline guidelines to AGENTS.md
+661a934ad fix: test warnings - v2f y coord and empty INTERACT packets
+6e4398852 fix: use fabsf(cos_r) to prevent pitch inversion at roll > 90°
+7897c14f5 feat: add camera roll settings to settingtypes.txt
+e33bb48cb docs: document camera roll enhancement settings
+7ab3e5b5e feat: implement roll-adapted mouse control
+b92cb72d2 feat: implement camera roll auto-reset with smooth decay
+98e814b9c feat: track input idle time for camera roll auto-reset
+3e0a3b48f feat: add camera roll auto-reset state fields
+6bf897402 feat: add camera roll auto-reset and adaptive mouse settings
+ce4086400 Add camera roll enhancements spec
+ff62a301e Add integration tests for client HTTP API
+89848bd83 Fix blockexchange JSON error and schembuilder undeclared global
+12fef9a7b Fix blockexchange login: handle raw JWT token response
+5d14a209e Fix client-side HTTP API (CSM)
+cdb304fa7 Windows build fixes: rename ToastType::ERROR, guard POSIX pipe code
+c4cd920cb Fix SkyLocker timing and enhance NodeMetaSniffer with metadata diffs
+e0114aa91 Enable new cheat mods in mods.conf
+7500301f6 Add 7 new cheats: ParticleBlocker, ParticleSaver, SkyLocker, HUDLocker, NodeMetaSniffer, InvLogger, InvSnapshot
+925b868ec Add register_on_hud_flags_changed, register_on_hud_param_changed, register_on_inventory_action callbacks
+8a3b9c813 Add register_on_sky_changed and register_on_clouds_changed Lua callbacks
+79e9fc650 Add register_on_nodemetadata_change Lua callback
+0d2d547dd Add register_on_inventory_update Lua callback
+de78de421 Add register_on_delete_particlespawner Lua callback
+46772bab2 Add register_on_stop_sound and register_on_fade_sound Lua callbacks
+34ab26430 Activate 5 dead Lua callbacks: object_add, object_hp_change, object_properties_change, sending_inventory_fields, sending_nodemeta_fields
+8d6423589 Add discord invite to readme
+a03ce9065 feat: add Sky and Clouds client-side Lua API
+1b9c16830 fix: read color/bgcolor fields from table instead of passing whole table to read_color
+28442a96b feat: add minimap marker API (add_marker, remove_marker, clear_markers)
+3b73d7f0f feat: add camera nametag API (add_nametag, remove_nametag, clear_nametags)
+f3268efe1 docs: document pitch wraparound, sound API, and localplayer physics extras
+39175549d test: add integration tests for sound API and localplayer extras
+679d5dde9 feat: add LocalPlayer physics extras (collisionbox, eye_offset, standing_node, gravity, can_jump, autojump)
+968d0723c feat: wire up client sound_play API (was dead stub)
+5c45527f6 feat: pitch wraparound setting for loopings
+8baaa6d6b feat: use get_roll() in flight HUD instead of setting
+cefa83748 feat: camera roll with Q/E key bindings and Lua API
+b1cfa0443 Fix Mesa GL_STATIC_DRAW bufferSubData performance warning
+e6dc3e162 Fix various startup warnings
+d910cead8 Add "random" placement strategy for schembuilder
+8c65f2320 refactor: convert autoeject/autorefill to ws.rg, add mcl_chests input slot
+a484aa74f refactor: rename killaura mod to combat, add PatrolGuard bot
+942d741ed feat: convert autoeject/autorefill to ws.rg, add mcl_chests input slot injector
+dbfa99600 fix: persist nearby node/list selection across form submissions
+d24b6c14c fix: use ipairs instead of # for inventory list iteration
+0dfc0eb74 fix: show all inventory slots as text, add player inv to Nearby tab
+1d39bdcb0 fix: guard FFP day/night animator behind !ffp_isEnabled() to prevent vertex color corruption with shaders
+880798d36 feat: add BlockExchange client mod for downloading schematics
+39cc29c62 feat: rename PointLiquids to PointAll, make all non-air nodes pointable
+db33e700e feat: show join/leave messages as toast notifications instead of chat
+d357b26ed fix: increase rg lifecycle test timeouts for slow game loads
+bd7c3cc38 fix: pass fields parameter to add_rm_handler in killaura
+27ea0f5f0 fix: killaura formspec layout and buttons, nlist wrong field, POI dropdown collision
+644a053da feat: unified configurable theme system for formspecs, cheat menu, and toasts
+7a0b895f0 Add wasp logo
+8c04a49da Remove some luanti specific files
+7f1fa050c feat: add compass strip to flight HUD through horizon center
+46015aec9 fix: reset packet read offset after raw packet intercept, fix rg lifecycle test
+25091e491 Update API documentation
+182a06d52 docs: rename df_csm_api.md -> al_csm_api.md, update content and references
+bd510d3a1 docs: sync README.md and AGENTS.md with current codebase
+13b974716 Fix client re-attach
+7994c496e docs: document client Lua pipe and session detach/reattach in README.md
+e150131b1 fix: detach writes session pipe_lua_path only when pipe_lua_enable is true
+e2773a1d8 feat: optional named pipe for client-side Lua execution (pipe_lua)
+d21be1a4e feat(sbots): sprint and patrol movement strategies, hover mode for autopilot
+226e93e42 refactor(sbots): movement strategies, enum settings, edge-snapping panels
+5db6e28b9 tests: remove witherbot and player_radar tests (mods removed)
+cf689a75c update mods.conf
+9af5601f9 fix: revert sbots generic +2, layer strategy now aims at top layer (target_y+2)
+4830d7361 fix: sbots movement always aims 2 nodes higher so head ends above placed nodes
+0c6bb384c feat: layer strategy now stands 3 above target and places 3 layers simultaneously
+0ac8b4fe8 merge formspec_utils into al_formspec — formspec blocker, trash button injector
+b831dabe5 Remove stale lua code
+9e868e858 fix: remove killaura formspec test that was opening form on load — close formname didn't match custom formspec suffix
+a52a6f2cf fix: check fields.quit in formspec handlers — prevents auto-reopen when form is closed via X button
+4a61c40ec fix: put size[] before no_prepend[] in all formspecs — engine only parses size in header scan, not main loop
+c082c4a73 fix: replace deprecated hud_elem_type with type across all client mods
+050d9a07e fix: apply dark background (#1a1a1a) to all cheat settings formspecs and standalone formspecs
+bb47a0a9f fix: use select() for nil-safe vararg iteration in stringbuilder, fix bar test for UTF-8
+49248fba5 revert: pause_menu overwrite is correct — separate Lua context from client
+027f8c804 refactor: port POI formspec to al_formspec library
+dea50ded1 refactor: port killaura and nlist formspecs to al_formspec library
+c180682b4 feat: add al_formspec library — stringbuilder, dark theme, widget helpers, interaction handlers
+c1cbd8f79 fix: pause_menu no longer overwrites core.registered_on_formspec_input, restoring cheat settings auto-save
+4a0827865 fix: remove flaky lifecycle notification tests (race with test_ws_rg_lifecycle hooks)
+2c76b97e2 feat: add target HUD to killaura — shows closest target name, HP, health bar, distance, color-coded by health
+73d0ec845 cleanup: rewrite killaura — fix crash bugs, remove dead code, extract formspec, expand tests
+46f011c47 fix: correct test setting expectations, fix notify test isolation
+e48242b43 test: add 8 new integration test files, expand cheat coverage
+b55c6d524 fix: update config, CI, and docs for Antilua branding
+d4130232f cleanup: remove spongebot griefing, dead code, fix typos
+2179f04ed fix: 9 Lua crash bugs across client mods
+0a24a41d5 fix: null guard cheat menu key handling, add return-value macro variant
+6e78f9b4d rename: fix stale dragonfire references in mods, tests, docs
+ea65d6250 rename: set_df_default_settings → set_al_default_settings
+9fe63e81d rename: df_ → al_ for builtin Lua files
+07e408fbc Schembuilder formspec browser, new strategies, nlist filter, C++ API additions
+32f6c15b8 SchemBuilderBot: layer strategy, nlist filter, material estimation, persistent jobs
+ae5d6f37b Add first-run tutorial toast and keybind reference formspec
+de82853bc Extract generic PanelOverlay from CheatMenu
+780442fb3 Code quality improvements: rename df_* → al_*, fix sentinel collision, extract lambdas, cleanup
+1d231c1ae Render formspecs above cheat menu panels; intercept Tab when cheat layer active
+b7b78648f Update READMEs: fix branding and stale feature references
+c95175351 Rename DRAGONFIRE modpack -> ANTILUA
+7bffa14ee Add some new menu background images
+020b4c053 random main menu background from menu_background-N.png
+8771f203d schembuild: add POI waypoint on schematic load
+44cac6ba2 schemresume: load schematic at saved position without teleporting
+2ff9f3e28 schembuilder: persist schematic params for /schemresume
+da42ff4f8 schembuilder: bot walks to supply chests when inventory empty
+c09f9cced schembuilder: fix '... +N more' threshold to match 45
+d9e2ce966 schembuilder HUD: show more node types, move to top-right
+7c2ee69e2 Rename litematica -> schembuilder
+51a3ec36b litematica: improve particle preview quality
+dd6ffb61e litematica: revert entity previews back to particles
+5284036f5 Fix entity visibility and crash issues
+3c7c374ae litematica: replace particle previews with entity-based node previews
+6b7d700bd core.create_client_entity: add client-side entity creation API
+acf501e29 schematiclooter: reduce scan delay from 3s to 1s
+def24c893 schematic looter: ws.loot_list() + SchematicLooter cheat
+f017a15d9 litematicabot: batch-place up to 8 nearby nodes per do_pos call
+7cdc00e95 litematicabot: reduce default place_cooldown to 0.1s (GC freeze fixed)
+8a52327d0 litematicabot: eliminate GC-pressure freezes in find_pos/update_pos
+62fb5735d litematicabot: add place_cooldown setting to prevent client freeze
+8062e5e07 headsaver: properly place find_air_ahead before headsaver block
+394015a0c fix: restore deleted wasplib functions and fix find_air_ahead placement
+3d8c2fed7 headsaver: add wall-jump via forward air scan
+e36abdac2 litematica: add LitematicaBot — sbots bot that walks to unplaced nodes
+2b1d2976c litematica: add HUD showing remaining node counts
+4e2e955e6 litematica: delegate inventory check to ws.place, remove require_item
+e5bb9091c fix: move tiles push after result table creation in push_content_features
+80cee384d feat: add tile names to core.get_node_def() and use them for particles
+4faa1b977 litematica: on-load particle gating, remove periodic refresh
+d76c4b894 fix: replace removed litematica_particle calls in litepos commands
+031fc2f98 litematica: air/structure void filtering, auto-dig, particle cleanup
+80f46916c fix: use core.get_item_def().inventory_image for particle textures
+b46a7fe32 refactor: simplify litematica loading pipeline
+c65e73a27 fix: resolve circular dependency and forward reference in litematica
+54fefbb16 fix: add x/y/z fields to read_schematic data entries
+793c1db21 fix: disable particle collision removal for schematic preview
+522414991 fix: initialize place_nodes at module level
+02a42fcac fix: replace math.modf with math.floor in particle positioning
+ed1146a52 fix: resolve core.read_file paths relative to share path
+4bb7261ae litematica: add core.read_file() and /liteload file: support
+846bef165 docs: add Schematic API section to AGENTS.md
+0c6cc83d7 litematica: core.read_schematic/serialize_schematic, auto-place mode, fixes
+55baef061 docs: add litematica improvements spec
+fccc8359b witherbot: cleanup dead code, add nil guards, settingtypes.txt, tests
+d7cd520d6 killaura: cleanup dead code, fix bugs, add tests
+ca7ef9898 fishbot: add integration tests
+15e0a10fc fishbot: migrate from ws.rg to sbots.register_bot
+edc094db5 docs: remove cobot task from fishbot plan (belongs in sbots)
+090d3b869 docs: add fishbot improvements plan
+493bb42d9 fishbot: quick cleanup and bugfixes
+5858ac89c autominer: wait for dropped items before advancing
+fac7ed3d1 autominer: fix stuck bot and noclip damage
+b39db8f77 fix: lowercase bot setting name in sbots framework
+0d6b1b0be Add integration tests for autominer and rhythmtp API
+12421dd72 autominer: rewrite with generalized lava handling, dig-before-tp, rhythmtp polling
+fbe2d9b91 rename mclminer → autominer (directory + config refs)
+8b7617907 rhythmtp: expose public API for polling internal state
+d73354601 docs: add autominer design spec
+eb1ee5f82 Add raw packet interception API (Phase 5)
+e0a7c713f feat: add callback tables and setPayload() for raw packet API
+c7b054dde rename project to Antilua
+16518d1a8 feat: replace cheat menu with tiled category panels
+9387df6dc feat: Add groups to poi system
+fd0036740 add screenshot thumbnails to waypoints
+a2d9c0920 enhance POI mod: colors, distance sort, auto-naming, timestamped deaths
+d2acbf876 clean up POI mod: fix bugs, no_prepend, dead code removal
+5952c7e22 remove files that should not be tracked
+798785332 remove dead Coords cheat
+81930ec31 remove accidental files from previous commit
+14c63b1b6 add 7 new general-purpose cheats
+e78d1a49b consolidate clientmods: 28 -> 20 mods, remove BrightNight
+8a1e4b5d4 add player radar, death waypoints, chest stealer cheats
+a2562e81f fix build warning
+ca61845b9 docs: add AGENTS.md for agent-assisted development
+aaf8c862c Remove some unused code from devtools
+7a7744a23 fix: register 9 new callback-based mods in mods.conf
+10c9c6c90 fix: add sbots dependency to mclminer mod
+e222bc911 test: add integration tests for 9 new callback-based mods/cheats
+e758c404b feat: add Formspec Modifier mod using on_receiving_formspec
+5683b2657 feat: add Breath Alert cheat using on_breath_changed
+692aac7a1 feat: add Movement Display cheat using on_recieve_physics_override
+723f584f3 feat: add World Observer cheat using on_node_add/remove
+c2a57354d feat: add Entity Logger cheat using on_object_add/hp_change
+8a52d3634 feat: add Formspec Blocker cheat using on_receiving_formspec
+b3cac15de fix: distinguish formspec cancel vs pass-through in on_receiving_formspec
+70f81937b feat: add Always Day cheat using on_time_of_day
+7ba8a60c2 feat: add Clean HUD cheat using on_hud_add
+2e9cb4581 feat: add Session Stats mod using on_connect/on_death/on_damage_taken
+296e46043 fix: propagate interception return values through DfClientHooks bridge
+4f428b521 fix: add wasplib dependency to autokey mod
+2b2336b6e feat: add 24 new Lua callbacks with DF-local C++ layer
+8c7701fcc Add clientmod README's and forgotten files
+e3f9adf1b feat: set dragon2.png as persistent main menu background
+fa7803627 wasplib: cleanup integrations.lua
+536afde66 Adjust flighthud altimeter position
+680c0bff3 fix: adjust position of autopilot target hud
+73cd27a01 fix: handle checkbox values explicitly with set_bool
+b71bf1aa9 feat: autopilot polish — follow name, auto-level, better avoidance
+62e2e076a feat: autopilot improvements — speed, altitude hold, obstacle avoidance, follow player
+ee7ffb193 feat: enabling continuous_forward with a waypoint selected also enables autopilot
+71fb739e1 feat: autopilot enables flight_hud and freelook as daughter settings
+967995de4 fix: show waypoint name above coords in FlightHUD target display
+b18e74416 refactor: move HUD display from poi to flight_hud
+d53fff2ad fix: set_yaw/set_pitch now persist instead of snapping back
+61c4efdbb fix: guard minetest.sound_play in spongebot (nil in client mods)
+5becfa7d1 refactor: nlist UI overhaul — formspec, HUD, rename, mode indicator
+1d4fd8dc8 chore: remove register_list_command no-op stub from wasplib
+5f9842c8f refactor: remove get_dflist system, nlist now self-contained with xray sync
+0385a2c14 fix: cheat layer now shows while TAB is held, hides on release
+7614905c2 refactor: clean up litematica mod (390→215 lines)
+d70908cdb fix: nlist bugs — rename, random, delete, nil guards, mode simplification
+05f30c91a refactor: standardize settings patterns across cheats
+e91d0fd59 fix: HighwayZ undefined z, remove deprecated scaffold aliases, fix spongebot global override
+dcf7e567d refactor: replace 16 InventoryAction move patterns with ws.move_stack()
+6a4faaa99 feat: add ws.move_stack, ws.cheat_setting, ws.register_keypress_cheat, ws.hud_set to wasplib
+70e628ee9 refactor: convert mclminer to use sbots framework
+f914da2c1 refactor: consolidate duplicated cheats into parameterized forms
+0fb199188 fix: 8 client mod bugs, PlaceOn collision, dead code removal
+df6e00cfe feat: on_receiving_chat_message can return modified message string
+dbdc3ea91 feat: add StripChatColors cheat
+902506c0d fix: freecam always moves at fast speed
+891f03e09 fix: restore previous camera mode when disabling freecam
+5bb139309 fix: send legit player position to server during freecam
+7108e29fa fix: make lifecycle test more robust with longer timeouts and zero delay
+0c551f861 fix: guard autokey globalstep against nil localplayer
+f1bfc4b1d feat: centralized notification API and toast notifications
+340107af0 Add cheat tooltips + CloakV4 compat
+fdf5d7489 Fix heading parsing in md_parser + fix deferred test to avoid uncaught errors in after() callbacks
+9499c9ae5 Add help system: centralized README browser + cheat descriptions
+46594ec62 Add README.md for all 28 clientmods + top-level modpack README
+2c4a2e3f4 Remove chat message from ws.reset_constraints — was showing on client start via tests
+7a616ba08 Remove public chat message from tests — send_chat_message checked for existence but no longer called
+0051ffdd2 Add unit + integration tests for restructured clientmods and wasplib
+3a2153684 Reshuffle cheat categories: World → Place/Dig, nList → Misc, POIs → Misc
+dd59eaf65 Clean up cheat menu categories: Scaffold → Place, remove duplicate dig cheats from place/spongebot
+ef09e1a5e CSM restructure: merge/rename/cleanup client mods
+2fc4e37b2 Add superpowers plans
+f643120ac Per-panel detached flag: child panels track their own detached state
+59bfaec14 Normalize sub-menu behavior: pinned panels stay, non-pinned replaced
+d694ab9b0 Fix attached mode: detached flag only on actual drag, resets on close
+a830b6d5f Unify hover and keyboard navigation: mouse hover sets selection, click/F activates
+43c6afc6e Fix detached mode: child panels stay open until manually closed
+5bc27b341 Skip cheat menu dark overlay when a formspec is active
+0f7d43a3c Lower settings formspec title to avoid clipping with padding
+18fa3afe4 Use formspec version 10 instead of 3
+41e723b4b Fix formspec layout: proper header order with padding before no_prepend
+cd34380b7 Add no_prepend[] to all cheat settings formspecs
+56e30c527 Close test formspec to prevent it persisting at startup
+94c553e5e Suppress dig/place interactions when cheat menu is active
+d1e84c2eb Replace inline C++ cheat settings with formspec
+0a4df3fce Add freelook cheat: look around with mouse without changing movement direction
+faff07b63 Extract DF-specific code into separate files to minimize merge conflicts
+5e5639d18 Fix flight HUD positioning and client mod texture loading
+02ef5e4f3 reposition alt/speed indicators leftward, center indicator on horizon
+1f4755792 flight HUD: rotate indicator with roll using pre-rendered textures
+dca9c6ffc fix flight HUD alignment, indicator bar, and speed division
+44fdbc33e redesign flight HUD: indicator line, vertical alt bar, speed bar
+15420de26 flight HUD: fixed horizon circle with moving indicator chevron
+9f85e7061 flight HUD: artificial horizon with circle texture, pitch/roll indicator
+2913b21e2 fix flight HUD layout: use ASCII bars, wider offset
+f1e289cb2 move flight HUD from C++ to Lua (basic_moves/flight_hud)
+2c006d119 tps_client: initialize mod channel communication on connect
+8bca156dc client: add Dragonfire version identifier to CLIENT_READY
+34678715e flight HUD: artificial horizon, altimeter, tachometer
+6395bb43b mouse click on category always replaces child panels
+9354e4e78 rounded corners + inline settings under cheat row
+90ec8cde0 Add unifont font
+2f8bb351e settingtypes: add missing cheat settings and fix key defaults
+984646d71 themeable panel colors with border highlight
+b651061c4 selectRight on main panel opens child category panel via keyboard
+af4b22093 X button clears saved panel position so it opens at default next time
+52c3d58f8 fix loadPanelPosition exception: use getNoEx instead of get
+b975cec34 cheat layer: save/load panel positions, Enter as confirm key
+75c15ba52 main menu: re-enable pin button, pinnable like all other panels
+341a342db cheat layer: fix pinning, detach behavior, main menu no pin
+da5fd8f28 cheat layer: add settings gear button on each cheat row
+e4739aaad docs: document cheat layer panel system in README and AGENTS
+f1a38cd90 pinned panels: drawPinned called outside cheat layer
+2b70818a5 wasplib: fix old-style ws.rg compat shim — wrap on_step/on_start/on_stop
+105c30c33 cheat layer: detachable category panels, X close button, bool settings
+f3b1b37a5 docs: update cheat menu key from F8 to TAB
+0548ddf14 key binding: change cheat menu toggle from F8 to TAB
+bd8797d64 cheat menu: layer system with movable panels, mouse support, pin/focus
+b6ad48c61 remove Test category, Diggers→Dig, remove poi_clearhuds cheat
+8f25113aa cheat categories: consolidate from 15+ to 9 logical groups
+dd6a5be89 register_cheat: convert all remaining old-style calls to table-based
+96d8d95e0 nlist formspec: fix button handling — use if instead of elseif chain
+9645c0eed nlist formspec: move textlist_idx to module scope
+9be494ee8 nlist formspec: fix textlist event parsing for remove
+a7be0fe73 scaffold: add missing scaffold.setting function definition
+18cec1c74 nlist formspec: show currently selected list in dropdown, not default
+ac1fda027 nlist formspec: fix dropdown selected index, improve remove
+7ef9d29f5 nlist formspec: add left padding to input field to match textlist
+e52284b9a nlist formspec: move +/- below entries, fix height
+5d049037e nlist formspec: fix remove, use +/- buttons, add bgcolor
+dede7c7e0 sbots: fix self reference — use registered_bots[tn] for bot methods
+44de9f40a nlist formspec: selectable textlist for entries and list switching
+38ff264fb nlist: add get_formspec for list editor formspec
+c99b13e32 cheat settings: add get_formspec field for custom formspecs
+89625fd44 sbots: inherit from globalhack system via ws.rg
+abddf64cd scaffold sub-files: convert to table-style ws.rg, remove dead files
+ffb3c2ccf convert walls, farmtool, witherbot, mclminer to table-style ws.rg with cheat_settings
+65989169c killaura: convert to table-style ws.rg with cheat_settings
+1a0465ac9 scaffold: shared cheat_settings via scaffold.setting helper
+c0dc28096 convert autoevade, lavaalarm, fishbot to new ws.rg table style with cheat_settings
+b75dd3989 cheat menu: add per-cheat settings formspec via cheat_settings field
+53b4a3373 core.register_cheat: table-based def with auto-init and compat shim
+b14965eab wasplib: redesign ws.rg to accept table def with defaults metatable
+bc4c758aa scaffold: remove AntiTower/ATower (redundant), delegate to ws.*
+b516035ae cheat menu: sort categories/cheats alphabetically, align to bottom-left
+1cace51b1 docs: rename README.md → LUANTI_README.md, add Dragonfire README
+70b95f971 settingtypes: add all Dragonfire cheat settings with descriptions
+ca77ace67 esp: add through-walls wallhack mode with occlusion tinting
+f9aff2601 esp/tracers: fix coordinate space for camera offset
+bb4d7e222 esp/tracers: fix material setup and increase object range
+c8154b555 esp/tracers: core entity + player ESP boxes and tracer lines
+ab8925077 docs: drop physics refactor and network protocol from DF_MISSING
+cc8553609 docs: clean DF_MISSING.md — remove freecam/fullbright/xray entries
+794bd3000 docs: update DF_MISSING.md — mark freecam/fullbright/xray as ported
+1ca1e113f xray: port from CloakV4 — selectively hide nodes at mesh generation
+74c3b4294 fullbright: port from CloakV4 — max brightness with live block update
+a84d4a8fc freecam: port from CloakV4 — detached camera with legit position/network freeze
+dbf0d24df docs: Verify by building only if c++ files changed
+1c5ca9997 cheats: implement priv_bypass — overrides privilege checks
+61e888ff9 api: fix 3 remaining skipped tests — 122/122 all pass
+b1ed4d678 tests: 118 pass, 0 fail, 3 skip after ModApiClient port
+012aae3ad lua api: port DF ModApiClient additions
+ac59f3989 tests: update after l_localplayer port — 111 pass, 0 fail
+1d625a2e2 lua api: port DF l_localplayer additions (get_yaw, set_yaw, etc.)
+a8541b401 scriptapi: add g_game global Game pointer
+3f7bb3172 tests: finalize all 96 pass, 0 fail, 27 skip
+a5fb18e69 tests: restore DF chatcommands, finalize test fixes
+628632dc2 tests: fix failure classification, add autotest script, update AGENTS.md
+98325e1ef settings: enable client modding by default
+0d5716086 build: use RUN_IN_PLACE, add clientmods/mods.conf for df_test
+2f7227f58 tests: fix mod channel API to use register_on_modchannel_message
+42ad8bdb5 tests: add integration test framework for DF features
+40d542648 cheat menu: add debug logging to selectConfirm
+59b0dfcf1 builtin: fix item_s.lua loading pattern
+c17a02a98 builtin: add missing item_s.lua load to client init
+5c8cc461c builtin: add missing voxelarea.lua common module
+ddcb8e078 client: call init_cheats() after mods are loaded
+6563f7cad docs: add DF_MISSING.md cataloging unported features
+8c207da47 localplayer: add movement cheat implementations
+edc819bc9 settings: add missing default key bindings for cheats
+fc4d94bd7 game: integrate cheat menu into the game loop
+ac655cde8 gameui: add cheat menu flag and toggle method
+25cf3fc1f keys: add cheat-related key types and bindings
+94d2b9992 settings: add cheat menu and cheat feature defaults
+848822c11 builtin: add client-side cheat definitions, death formspec, and util
+9c3193a3b scriptapi: add client-side object/death callback hooks
+0d629919d scripting: register all DF Lua API types in ClientScripting
+b3d04ebb7 lua api: add InventoryAction type for client-side inventory manipulation
+ef8bfcfe8 lua api: add ClientObjectRef type for client-side object access
+014b836da gui: add in-game key rebinding dialog (GUIKeyChangeMenu)
+047dc3255 cheat menu: add ScriptApiCheats integration and CheatMenu GUI
+34f2c718c scriptapi: add ScriptApiCheats class for cheat/toggle framework
+12691c712 scriptapi: add Game pointer and setGame/getGame to ScriptApiBase
