@@ -1010,3 +1010,14 @@ ef8bfcfe8 lua api: add ClientObjectRef type for client-side object access
 047dc3255 cheat menu: add ScriptApiCheats integration and CheatMenu GUI
 34f2c718c scriptapi: add ScriptApiCheats class for cheat/toggle framework
 12691c712 scriptapi: add Game pointer and setGame/getGame to ScriptApiBase
+6904b629a listDigBot: move digging to do_step, do_pos just checks completion
+2c90ba5a4 listDigBot: dig all target nodes within reach instead of radius 1
+08fe182c0 fix autorespawn on modern servers (protocol 46+)
+aab34f099 fix al_formspec: guard nil formspec in inject_trash_button
+bdb22c9a3 fix sbots find_nearest arg order in listDigBot find_pos
+8cf153e47 add tools/mc2mts.py — Minecraft .schematic to Luanti .mts converter
+e4ce9df7b fix fullbright_min_level: setting name mismatch between Lua UI and C++
+21ab9c904 fix fullbright_min_level: particles, entity double-apply, and missing runtime callback
+ac2220fa5 remove 17 cheats: wallscaffold, headTriScaff, WallIn, TorchUp, SkyPltfrm, PCeiling, MScaffModulo, LanternTBM, HighwayZ, Highway, AutoTorch, AutoMoss, WorldObserver, SkyLocker, ItemESP, EntityLogger, BreathAlert
+431159f57 clientmods: major cleanup — LuaJIT compat, shared wasplib helpers, race conditions, dead code
+041a87771 fix: replace core.get_item_group with core.get_node_def().groups for client-side compat
