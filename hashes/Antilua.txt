@@ -1021,3 +1021,14 @@ e4ce9df7b fix fullbright_min_level: setting name mismatch between Lua UI and C++
 ac2220fa5 remove 17 cheats: wallscaffold, headTriScaff, WallIn, TorchUp, SkyPltfrm, PCeiling, MScaffModulo, LanternTBM, HighwayZ, Highway, AutoTorch, AutoMoss, WorldObserver, SkyLocker, ItemESP, EntityLogger, BreathAlert
 431159f57 clientmods: major cleanup — LuaJIT compat, shared wasplib helpers, race conditions, dead code
 041a87771 fix: replace core.get_item_group with core.get_node_def().groups for client-side compat
+ccb1b6192 add KillauraBot — hunts targets using killaura logic in wider range
+b9ad6f2e0 killaura: add mob attack checkboxes back
+6c85f8632 killaura: restore original complex version
+c91da2677 fix dangling ClientObjectRef segfault — populate core.object_refs on client
+89b74b508 fix get_objects_inside_radius on client: create ClientObjectRef directly
+935b77d89 fix obj:punch() — change POINTABLE_NOT to POINTABLE
+b503a7fba killaura: minimal rewrite — 40 lines
+7a57a3106 killaura: simplify to target-all with spaced punches
+91d26e6d9 killaura: fix mob detection — use get_name() instead of unavailable client APIs
+c313b7304 killaura: add hostile/all mob attack checkboxes
+3cb5197c4 killaura: replace hph with optimal spaced-punch strategy
