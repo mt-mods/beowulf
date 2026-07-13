@@ -1032,3 +1032,19 @@ b503a7fba killaura: minimal rewrite — 40 lines
 91d26e6d9 killaura: fix mob detection — use get_name() instead of unavailable client APIs
 c313b7304 killaura: add hostile/all mob attack checkboxes
 3cb5197c4 killaura: replace hph with optimal spaced-punch strategy
+7605fdb04 find_safe_pos: only check head (pos+1) is air, feet can be in any node
+402328673 KillauraBot: add fly_attack mode — airborne strikes with crit optimization
+6434ee34b fix formspec z-order above cheat menu + 70% overlay background
+63b01cdb0 sbots: simplify death_pos — single shared position (not per-bot)
+41efe9809 sbots: add return_after_death option (default on) for all bots
+072017bef lock_target: fall back to normal mode if target is beyond scan_range
+497934ce9 KillauraBot: add lock_target option — stick to one target until death
+7f6fb62d9 fix is_mob excluding projectiles — mobs_mc: prefix matched wither skulls etc.
+601c5e132 KillauraBot: add projectile evasion option
+7c5e95aba ItemCollector: deposit each slot up to its excess count, not whole stack
+cf2babb1e ItemCollector: never deposit chests or shulker boxes
+7dc30a5ef ItemCollector: deposit when inventory nearly full (<=2 free slots)
+559bcaad1 ItemCollector: fix deposit trigger — per-item tracking, lower threshold
+3cc46c361 ItemCollector: use sbots API, only deposit collected items
+0fadb1b39 ItemCollector: smarter chest placement — find air above solid first
+bc9a9f2ef add ItemCollector bot — auto-collects dropped items into chests
