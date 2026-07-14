@@ -1048,3 +1048,13 @@ cf2babb1e ItemCollector: never deposit chests or shulker boxes
 3cc46c361 ItemCollector: use sbots API, only deposit collected items
 0fadb1b39 ItemCollector: smarter chest placement — find air above solid first
 bc9a9f2ef add ItemCollector bot — auto-collects dropped items into chests
+a4c5df009 revert chat z-order attempt — keep formspecs above cheat menu, accept chat on top
+23bff6664 fix formspec/chat z-order: chat under cheat layer, formspecs above
+36b9f5167 KillauraBot: set landing_distance to 5 (was killaura range 10)
+fcf02b637 fix hit_objects calling removed punch_object — use obj:punch() directly
+0f09ad498 fix reach cheat — implement getToolRange override with reach.range setting
+524debe31 combat/init.lua cleanup: -137/+53 lines
+e7d577eb5 .target: store object reference instead of string pattern
+1d60d42b7 .target: inline name matching in filter closures, remove matches_target
+e7a97e612 KillauraBot fly_attack: punch target directly in do_step, teleport to tgt+0.5
+fac05851b add .target chat command — filter killaura targeting by name
