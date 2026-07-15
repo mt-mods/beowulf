@@ -1058,3 +1058,19 @@ e7d577eb5 .target: store object reference instead of string pattern
 1d60d42b7 .target: inline name matching in filter closures, remove matches_target
 e7a97e612 KillauraBot fly_attack: punch target directly in do_step, teleport to tgt+0.5
 fac05851b add .target chat command — filter killaura targeting by name
+fdae6756e cheat menu UX: header right-click, profiles dropdown, quick slots
+b2570f075 fix zoom override: actually set player's zoom_fov, not a local variable
+e14e6acb0 override zoom disable: use priv_bypass to force zoom on survival servers
+abbef6395 add keymap_quick_select_menu to settingtypes_al.txt + key change menu
+9fe386a73 add keymap_toggle_cheat_menu to settingtypes_al.txt
+b6f758238 mapart: add max_colors option via median cut palette reduction
+f1b05306c fix recent panel click: goto label escaped all loops, only first cheat was clickable
+b5e9f32d3 rename .railportal → .oy_railportal
+86637a661 add .railportal chat command: nearest Oysterity nether railway portal finder
+d0f58e9f1 fix POI checkbox: al_formspec has no checkbox helper, use raw formspec
+f7e7348ab fix autotool: get_pointed_thing_position is server-only, use pt.under instead
+58a91ce42 fix POI cross-server leak: scoped prefix + show_all checkbox
+7605e5aa7 fix .profile: client chatcommand callback is func(param), not func(name, param)
+03999738b fix .profile crash when invoked without arguments
+63ba503bf cheat menu org: collapsible panels, recent panel, right-click menus, profiles, conflict indicators
+8c46afbfc cheat menu polish: green headers, per-category tint, Unicode buttons, tooltip bg
