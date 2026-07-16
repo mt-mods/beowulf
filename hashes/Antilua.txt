@@ -1074,3 +1074,11 @@ f7e7348ab fix autotool: get_pointed_thing_position is server-only, use pt.under 
 03999738b fix .profile crash when invoked without arguments
 63ba503bf cheat menu org: collapsible panels, recent panel, right-click menus, profiles, conflict indicators
 8c46afbfc cheat menu polish: green headers, per-category tint, Unicode buttons, tooltip bg
+43ffb890d fix formspec close: force_hidden flag prevents game loop sync from restoring cheat layer
+e1022cced hide cheat menu when formspec is opened, reopen on close in toggle mode
+3fdc72121 render cheat menu on top of GUI (chat + formspecs)
+b6a15d25d fix slot picker: escape [x]/[ ] button labels for formspec
+167b99846 fix context menu: correct panel right-click handling and slot indices
+74190bb6a fix context menu: left-click now works on menu items
+bb55ade83 fix context menu triggered every frame from held right-click
+9f622ca4e fix quick slots: guard empty settings from matching slot defaults
