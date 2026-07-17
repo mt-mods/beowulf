@@ -1082,3 +1082,6 @@ b6a15d25d fix slot picker: escape [x]/[ ] button labels for formspec
 74190bb6a fix context menu: left-click now works on menu items
 bb55ade83 fix context menu triggered every frame from held right-click
 9f622ca4e fix quick slots: guard empty settings from matching slot defaults
+3f9b7b941 install clientmods system-wide (not just RUN_IN_PLACE)
+ff2056d4f fix stale luanti binary name in stress_mapgen.sh and android .mo output
+32e684d30 fix stale Luanti filenames in install/Doxyfile/Xcode bundle ID
