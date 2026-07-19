@@ -1085,3 +1085,18 @@ bb55ade83 fix context menu triggered every frame from held right-click
 3f9b7b941 install clientmods system-wide (not just RUN_IN_PLACE)
 ff2056d4f fix stale luanti binary name in stress_mapgen.sh and android .mo output
 32e684d30 fix stale Luanti filenames in install/Doxyfile/Xcode bundle ID
+297c342e7 remove dead enderchest keybinding that conflicted with noclip (H key)
+e355d6aec fix save_and_load_mts nil — namespace it under mapart.* like the others
+959e923c1 namespace mapart functions under mapart.* table
+a07af4092 fix build_inv_palette not accessible from init.lua — was local to conversion.lua
+b4fe52d3a fix read_file/write_file/get_data_path rejecting paths with .. from RUN_IN_PLACE
+5f936d29c fix 'Invalid path' on every file — Lua pattern . matches any char
+79480a55f Revert "debug: add print() for filepath resolution in mapart commands"
+4b7ccfb3c debug: add print() for filepath resolution in mapart commands
+ecfd346c3 fix schembuilder crash when data/schematics/ doesn't exist
+bc41789b0 ux: selection wireframe, mapart tooltips, cancel button, progress refresh
+a193ed2d1 schembuilder + mapart UX improvements
+be6c16652 add chat_logger mod + core.append_file() API
+0f9122441 use core.get_data_path() for default schembuilder/mapart storage
+e86688b0b add get_data_path/get_serverdata_path to al_csm_api.md docs
+0c0564387 add get_data_path/get_serverdata_path Lua APIs, fix core.mkdir for client
