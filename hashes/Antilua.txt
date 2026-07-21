@@ -1100,3 +1100,44 @@ be6c16652 add chat_logger mod + core.append_file() API
 0f9122441 use core.get_data_path() for default schembuilder/mapart storage
 e86688b0b add get_data_path/get_serverdata_path to al_csm_api.md docs
 0c0564387 add get_data_path/get_serverdata_path Lua APIs, fix core.mkdir for client
+89ae9521b on_open_nodemeta_form: return modified formspec from callbacks + fix drawMenu() revert
+8974e2643 fix group check: use has_group() to correctly handle 0 values
+1d61108e8 Add contributing section to README
+bba763e51 auto weapon selection: mace > enchanted sword > enchanted axe > sword > axe, restore wield after attack
+07dd1a2f0 keep resetting velocity for 0.2s after mace hit to counteract server velocity updates
+e0529f25d prefer enchanted mace over normal mace
+dc37933a4 use core.interact('use', ...) for mace instead of obj:punch() to trigger server-side on_use
+5d9efc7cc only trigger mace/crit when target in range, restore previous wield slot after mace attack
+99feec02a save and restore original pos/velocity around mace/crit punch to prevent downward movement
+fafcf4ade add auto mace/crit velocity boost to killaura: mace sets v=sqrt(d*40), crit sets v=-3, no separate toggle needed
+f87f36a39 ShowRange: add back 10-block reference line with ticks for accurate distance comparison
+eecea05df fix: remove debug log causing compile error, keep axis cross for scale reference
+6ec86176f add one-time debug log of actual radius value inside drawWireSphere
+e689a3ceb add magenta axis cross alongside wireframe sphere for direct size comparison
+54444f65a add debug line from center to center+radius alongside wireframe sphere
+7be2913d4 restore full wireframe sphere, clean ShowRange to just use add_wiresphere
+5aeb750a0 ShowRange: add single cyan line at distance r to isolate the coordinate bug
+b065f2644 ShowRange: replace add_wirebox with 12 add_line calls to isolate bug
+53037dd44 ShowRange: add purple box using literal 6.6 to compare with orange box using variable r
+24f3a4f04 ShowRange: compare orange range box + white sphere against 10-block reference line
+25627d2a5 drawWireSphere: replace with simple 6-line axis cross at radius distance
+acf92fe4a drawWireSphere: add debug line from center to center+radius for scale verification
+4814509a5 ShowRange: add 1-node reference cube, 10-block line with tick marks for scale debugging
+34836948b ShowRange: add debug logging for actual r value
+72b30acbc ShowRange: add matching red box to visually verify sphere radius
+70a94a9d2 ShowRange: fully opaque white, 48 segments for denser wireframe
+6986c8855 ShowRange: back to wireframe sphere with 50% white alpha for clear 3D visibility from inside
+dfab0a7ed ShowRange: use translucent surface sphere instead of wireframe for much better visibility
+2fd965e34 add ShowRange cheat: wireframe sphere at player pos showing interaction range
+86db8eb42 add vertex normals and directional lighting to surface meshes for 3D shading effect
+1ac90dfd7 surface mesh rendering for sphere and box with alpha transparency, add_wiresphere for wireframe
+0df725df6 add Lua 3D drawing API: core.draw3d pipeline step with sphere/box/wirebox/line/circle rendering, plus /testdraw chat command
+6a2718454 fix flaky ws.rg lifecycle test: call hack directly synchronously instead of async, use delay=0 to avoid rate-limit
+e73903c74 add qol mod (chat timestamps, /entityinfo, clickable coords, per-server profiles) + auto reconnect max attempts setting
+16f6738ee add integration tests for untested clientmod features: session_logger (ChatAlerts, NameColorizer), event_logger (BlockLogger, BlockStats, /blockstats), sign_reader, hudlocker, inventory (AutoRefill, AutoEject, ChestStealer, AutoSort, DumpFull, /eject) + callback tables
+3a9e6e62e add integration tests for core API functions: get_node_or_nil, get_node_def, find_nodes_near, get_meta, get_server_info, get_privilege_list, get_player_names, get_peer_id, get_language, add_particle/spawner, close_formspec, mod_channel_join + existence checks for 20 untested core APIs
+9be85409a fix chat_logger not logging real messages: change chat callback mode from OR_SC to OR so all callbacks run even when StripChatColors returns a replacement string
+b5bf47d17 fix on_connect not firing in singleplayer: CSM flags arrive after afterContentReceived, so call on_connect from loadMods too when state is LC_Ready
+f9a548972 fix on_connect not firing in singleplayer: CSM flags packet arrives after afterContentReceived, so call on_connect from loadMods too
+d4ff0d77c use consistent 'singleplayer' directory for local games in get_serverdata_path
+bfe5d2446 fix chat_logger: on_connect not firing, append_file rejecting RUN_IN_PLACE paths, plus integration test
