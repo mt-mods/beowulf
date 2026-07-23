@@ -1141,3 +1141,38 @@ b5bf47d17 fix on_connect not firing in singleplayer: CSM flags arrive after afte
 f9a548972 fix on_connect not firing in singleplayer: CSM flags packet arrives after afterContentReceived, so call on_connect from loadMods too
 d4ff0d77c use consistent 'singleplayer' directory for local games in get_serverdata_path
 bfe5d2446 fix chat_logger: on_connect not firing, append_file rejecting RUN_IN_PLACE paths, plus integration test
+0dde5bee2 Add ignore_formspec_prepend setting to skip server formspec prepend
+4183483af Fix save password: empty-string truthiness bug in Lua
+af0134335 Add save password checkbox that auto-saves credentials with server binding
+d395bf461 Move name/pwd fields and buttons down to make room for account dropdown
+202bd568f Register account manager files in builtin CMakeLists for hash generation
+64d696c45 Fix account manager: remove mm_game_theme call and redundant password cache
+37cbfe393 Add menu background texture
+ef2b77c2a Remove accidentally committed files
+5f2be6083 Remove ChatPlus feature (incomplete, not wired up)
+2faa3405b Add missing menu button and account textures from Lunarchy
+009211d43 Increase mainmenu formspec height to accommodate account dropdown
+631e22355 Fix account_manager: remove undeclared global login_username
+ce09bf233 Fix account manager: use core.get_user_path() instead of get_data_path()
+c6f2502f9 Port account manager from Lunarchy with data stored in USERDATA/data
+d0fa4a66d Fix killaura range tests: add range fallback + test cleanup
+383f6ef8f Port ChatPlus from Lunarchy: configurable chat HUD styling
+0362e1978 Port color theme system from Lunarchy with Matrix theme
+6c4790cda Port Strata pathfinding bot from DevClient
+797dbf23c Port pathfinding, task markers, and extended client API from Lunarchy/DevClient
+d9e061a43 Add Auto Evade cheat
+9e1139fc8 poi: add Hide All button to clear displayed waypoint HUDs
+b7a146015 poi: fix rename/delete buttons in formspec
+0ea1ca761 Fix: autofly reactivation loop after arrival
+bf1bf08f0 Fix: stprefix set to 'POI-:' when address is empty string
+f85627cfe Fix: move reset_gui_state after variable declarations
+9be2e34e4 Phase 4: flight_hud table-driven HUD, AxisSnap arithmetic, formatting
+498973b68 Phase 2-3: Split monolithic functions + DRY up code
+916563a04 Phase 1: Critical bug fixes + Oysterity extraction + README update
+f2286d463 Fix hollow shape generation: use neighbor-checking for 1-block-thick shell
+77799a44b Fix shape tab field persistence: save/restore all fields via settings
+22a401125 Add shape generator tab to schembuilder
+4f02b11a9 Fix mapart settingtype: remove nested parentheses from description
+bbd9c8ad0 Add AutoTotem cheat + move cheat settings to separate section
+d4be09677 move schembuilder missing nodes hud down to not cover minimap
+e36e48f69 fix texture name for itemslot_bg
