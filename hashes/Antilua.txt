@@ -1176,3 +1176,4 @@ f2286d463 Fix hollow shape generation: use neighbor-checking for 1-block-thick s
 bbd9c8ad0 Add AutoTotem cheat + move cheat settings to separate section
 d4be09677 move schembuilder missing nodes hud down to not cover minimap
 e36e48f69 fix texture name for itemslot_bg
+25c0c5d init
